@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}"
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{BDB04463-23D6-407B-9561-5D1A92F65310}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,9 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B487E407-0A41-46B9-8515-82472631E6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B487E407-0A41-46B9-8515-82472631E6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B487E407-0A41-46B9-8515-82472631E6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B487E407-0A41-46B9-8515-82472631E6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
 	EndGlobalSection
 EndGlobal
