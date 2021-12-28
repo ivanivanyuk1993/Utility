@@ -10,3 +10,6 @@
 [submodule "RunAtomicallyProvider"]
 	path = RunAtomicallyProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunAtomicallyProvider.git
+[submodule "AssertBenchmarkRelatedTestShouldNotRunInDebugProvider"]
+	path = AssertBenchmarkRelatedTestShouldNotRunInDebugProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.AssertBenchmarkRelatedTestShouldNotRunInDebugProvider.git

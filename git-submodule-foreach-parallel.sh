@@ -9,13 +9,13 @@ COMMAND="$@"
 
 IFS=$'\n'
 for DIR in $(git submodule foreach --recursive -q sh -c pwd); do
-    printf "\nStarted running command \"${COMMAND}\" in directory \"${DIR}\"\n" \
+    printf "\n\nStarted running command \"${COMMAND}\" in directory \"${DIR}\"\n\n" \
     && \
     cd "$DIR" \
     && \
     eval "$COMMAND" \
     && \
-    printf "Finished running command \"${COMMAND}\" in directory \"${DIR}\"\n" \
+    printf "\nFinished running command \"${COMMAND}\" in directory \"${DIR}\"\n\n" \
     &
 done
 wait
