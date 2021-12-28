@@ -15,8 +15,7 @@ for DIR in $(git submodule foreach --recursive -q sh -c pwd); do
     && \
     eval "$COMMAND" \
     && \
-    printf "Finished running command \"${COMMAND}\" in directory \"${DIR}\"\n"
-#    todo uncomment when google cloud repositories starts supporting parallel requests
-#    &
+    printf "Finished running command \"${COMMAND}\" in directory \"${DIR}\"\n" \
+    &
 done
 wait

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShardedQueueNS", "ShardedQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShardedQueueTestNS", "ShardedQueue\ShardedQueueTestNS\ShardedQueueTestNS.csproj", "{17567503-512E-4546-8A37-1A6006242475}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShardedQueueBenchmarkNS", "ShardedQueue\ShardedQueueBenchmarkNS\ShardedQueueBenchmarkNS.csproj", "{708F5DAD-550E-4146-B146-77E5758DAA29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +31,15 @@ Global
 		{17567503-512E-4546-8A37-1A6006242475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17567503-512E-4546-8A37-1A6006242475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17567503-512E-4546-8A37-1A6006242475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708F5DAD-550E-4146-B146-77E5758DAA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708F5DAD-550E-4146-B146-77E5758DAA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708F5DAD-550E-4146-B146-77E5758DAA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708F5DAD-550E-4146-B146-77E5758DAA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
 		{172D2722-A56E-4A3C-8EB7-C0A81FC38F47} = {4CF15933-F533-40F6-BBB4-18C586453664}
 		{17567503-512E-4546-8A37-1A6006242475} = {4CF15933-F533-40F6-BBB4-18C586453664}
+		{708F5DAD-550E-4146-B146-77E5758DAA29} = {4CF15933-F533-40F6-BBB4-18C586453664}
 	EndGlobalSection
 EndGlobal
