@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AsyncReadWriteLock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ShardedQueue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpinLockUtil" vcs="Git" />
   </component>

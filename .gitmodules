@@ -7,3 +7,6 @@
 [submodule "AsyncReadWriteLock"]
 	path = AsyncReadWriteLock
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncReadWriteLock.git
+[submodule "RunAtomicallyProvider"]
+	path = RunAtomicallyProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunAtomicallyProvider.git
