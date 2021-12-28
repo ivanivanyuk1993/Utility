@@ -1,3 +1,6 @@
 [submodule "SpinLockUtil"]
 	path = SpinLockUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.SpinLockUtil.git
+[submodule "ShardedQueue"]
+	path = ShardedQueue
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ShardedQueue.git
