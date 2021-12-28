@@ -4,3 +4,6 @@
 [submodule "ShardedQueue"]
 	path = ShardedQueue
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ShardedQueue.git
+[submodule "AsyncReadWriteLock"]
+	path = AsyncReadWriteLock
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncReadWriteLock.git
