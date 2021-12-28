@@ -1,0 +1,3 @@
+[submodule "SpinLockUtil"]
+	path = SpinLockUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.SpinLockUtil.git

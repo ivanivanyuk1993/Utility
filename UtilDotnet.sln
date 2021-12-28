@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{BDB04463-23D6-407B-9561-5D1A92F65310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61ACD82-99E3-496F-86E4-E9AA238EBAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
