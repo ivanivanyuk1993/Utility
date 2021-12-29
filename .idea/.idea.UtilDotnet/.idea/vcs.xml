@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/AssertBenchmarkRelatedTestShouldNotRunInDebugProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AsyncReadWriteLock" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BenchmarkUtil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CountProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ShardedQueue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpinLockUtil" vcs="Git" />

@@ -16,3 +16,6 @@
 [submodule "BenchmarkUtil"]
 	path = BenchmarkUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.BenchmarkUtil.git
+[submodule "CountProvider"]
+	path = CountProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CountProvider.git
