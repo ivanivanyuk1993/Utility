@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssertBenchmarkRelatedTestS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssertBenchmarkRelatedTestShouldNotRunInDebugProviderNS", "AssertBenchmarkRelatedTestShouldNotRunInDebugProvider\AssertBenchmarkRelatedTestShouldNotRunInDebugProviderNS\AssertBenchmarkRelatedTestShouldNotRunInDebugProviderNS.csproj", "{9EEA36DA-0879-490A-8651-183FA60B5FF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkUtil", "BenchmarkUtil", "{AA1F1DF1-1BE4-4FF6-B90E-7B0998844FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkUtilNS", "BenchmarkUtil\BenchmarkUtilNS\BenchmarkUtilNS.csproj", "{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,10 @@ Global
 		{9EEA36DA-0879-490A-8651-183FA60B5FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EEA36DA-0879-490A-8651-183FA60B5FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EEA36DA-0879-490A-8651-183FA60B5FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -75,5 +83,6 @@ Global
 		{03C5B4A0-1503-432A-9AAF-C7B327665DAF} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
 		{B0CDFC83-ACA5-4431-885B-EE8529C8B465} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
 		{9EEA36DA-0879-490A-8651-183FA60B5FF1} = {EC08E712-ECAC-4F1C-A667-0078DDE303D7}
+		{A423F2C4-9DFD-4DB4-842B-F19D0FCB803E} = {AA1F1DF1-1BE4-4FF6-B90E-7B0998844FC5}
 	EndGlobalSection
 EndGlobal

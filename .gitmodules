@@ -13,3 +13,6 @@
 [submodule "AssertBenchmarkRelatedTestShouldNotRunInDebugProvider"]
 	path = AssertBenchmarkRelatedTestShouldNotRunInDebugProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.AssertBenchmarkRelatedTestShouldNotRunInDebugProvider.git
+[submodule "BenchmarkUtil"]
+	path = BenchmarkUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.BenchmarkUtil.git
