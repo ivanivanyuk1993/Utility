@@ -25,3 +25,12 @@
 [submodule "FairAsyncReadWriteLock"]
 	path = FairAsyncReadWriteLock
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.FairAsyncReadWriteLock.git
+[submodule "AssertTimeUtil"]
+	path = AssertTimeUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.AssertTimeUtil.git
+[submodule "RunAfterProvider"]
+	path = RunAfterProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunAfterProvider.git
+[submodule "GetJsonDateProvider"]
+	path = GetJsonDateProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetJsonDateProvider.git
