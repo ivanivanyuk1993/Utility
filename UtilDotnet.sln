@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -56,6 +56,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetJsonDateProviderNS", "GetJsonDateProvider\GetJsonDateProviderNS\GetJsonDateProviderNS.csproj", "{A1E11CD0-2343-43EB-BCBE-207FF24CFE8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairAsyncReadWriteLockTestNS", "FairAsyncReadWriteLock\FairAsyncReadWriteLockTestNS\FairAsyncReadWriteLockTestNS.csproj", "{862AF77B-1394-44D8-B9BC-7E0802E1E20F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncLazy", "AsyncLazy", "{E21023E3-70C9-4DDE-8507-7100978468D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLazyNS", "AsyncLazy\AsyncLazyNS\AsyncLazyNS.csproj", "{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,10 @@ Global
 		{862AF77B-1394-44D8-B9BC-7E0802E1E20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862AF77B-1394-44D8-B9BC-7E0802E1E20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862AF77B-1394-44D8-B9BC-7E0802E1E20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -145,5 +153,6 @@ Global
 		{DDD36931-9C78-4005-A059-AB4A1DE6C964} = {810B021A-B241-4F61-B282-39AB76FC09CA}
 		{A1E11CD0-2343-43EB-BCBE-207FF24CFE8A} = {92F4A1A7-2BF3-44AE-9324-FD971717B2AF}
 		{862AF77B-1394-44D8-B9BC-7E0802E1E20F} = {80DC69BA-AA9E-4807-A3FC-61B1313EAE88}
+		{8851F2EC-4DE2-4A47-A5D8-A6332E4CC800} = {E21023E3-70C9-4DDE-8507-7100978468D7}
 	EndGlobalSection
 EndGlobal

@@ -34,3 +34,6 @@
 [submodule "GetJsonDateProvider"]
 	path = GetJsonDateProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetJsonDateProvider.git
+[submodule "AsyncLazy"]
+	path = AsyncLazy
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncLazy.git
