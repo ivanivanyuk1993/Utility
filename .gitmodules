@@ -22,3 +22,6 @@
 [submodule "RunWithoutGCProvider"]
 	path = RunWithoutGCProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunWithoutGCProvider.git
+[submodule "FairAsyncReadWriteLock"]
+	path = FairAsyncReadWriteLock
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.FairAsyncReadWriteLock.git
