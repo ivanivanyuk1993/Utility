@@ -40,3 +40,6 @@
 [submodule "CliExitCodeProvider"]
 	path = CliExitCodeProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.CliExitCodeProvider.git
+[submodule "CockroachDbMigrationUtil"]
+	path = CockroachDbMigrationUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CockroachDbMigrationUtil.git
