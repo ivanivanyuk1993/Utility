@@ -76,3 +76,6 @@
 [submodule "DownloadCliUtil"]
 	path = DownloadCliUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.DownloadCliUtil.git
+[submodule "EventLoopGroupScheduler"]
+	path = EventLoopGroupScheduler
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.EventLoopGroupScheduler.git
