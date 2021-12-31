@@ -55,3 +55,6 @@
 [submodule "CopyDirectoryAsyncProvider"]
 	path = CopyDirectoryAsyncProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.CopyDirectoryAsyncProvider.git
+[submodule "RunIfFirstCallProvider"]
+	path = RunIfFirstCallProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunIfFirstCallProvider.git

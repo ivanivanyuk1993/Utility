@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -90,6 +90,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyDirectoryAsyncProviderNS", "CopyDirectoryAsyncProvider\CopyDirectoryAsyncProviderNS\CopyDirectoryAsyncProviderNS.csproj", "{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyDirectoryAsyncProviderTestNS", "CopyDirectoryAsyncProvider\CopyDirectoryAsyncProviderTestNS\CopyDirectoryAsyncProviderTestNS.csproj", "{B334443B-B438-42A2-8245-075E42ABFF7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunIfFirstCallProvider", "RunIfFirstCallProvider", "{111BBBF6-23DD-45E5-B412-1784A3A157D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunIfFirstCallProviderNS", "RunIfFirstCallProvider\RunIfFirstCallProviderNS\RunIfFirstCallProviderNS.csproj", "{539C053F-F91C-4D76-93E7-F0F35918899E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,10 @@ Global
 		{B334443B-B438-42A2-8245-075E42ABFF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B334443B-B438-42A2-8245-075E42ABFF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B334443B-B438-42A2-8245-075E42ABFF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539C053F-F91C-4D76-93E7-F0F35918899E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539C053F-F91C-4D76-93E7-F0F35918899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539C053F-F91C-4D76-93E7-F0F35918899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539C053F-F91C-4D76-93E7-F0F35918899E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -229,5 +237,6 @@ Global
 		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933} = {928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}
 		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
 		{B334443B-B438-42A2-8245-075E42ABFF7D} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
+		{539C053F-F91C-4D76-93E7-F0F35918899E} = {111BBBF6-23DD-45E5-B412-1784A3A157D3}
 	EndGlobalSection
 EndGlobal
