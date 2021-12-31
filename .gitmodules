@@ -67,3 +67,6 @@
 [submodule "CrudProto"]
 	path = CrudProto
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.CrudProto.git
+[submodule "DoEnumerablesOverlapProvider"]
+	path = DoEnumerablesOverlapProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.DoEnumerablesOverlapProvider.git
