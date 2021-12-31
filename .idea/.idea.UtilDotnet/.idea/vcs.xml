@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/AsyncLazy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AsyncReadWriteLock" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BenchmarkUtil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CliExitCodeProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CountProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FairAsyncReadWriteLock" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetJsonDateProvider" vcs="Git" />

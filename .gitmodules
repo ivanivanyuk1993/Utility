@@ -37,3 +37,6 @@
 [submodule "AsyncLazy"]
 	path = AsyncLazy
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncLazy.git
+[submodule "CliExitCodeProvider"]
+	path = CliExitCodeProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CliExitCodeProvider.git
