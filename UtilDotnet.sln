@@ -85,6 +85,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertObjectToFlatDictiona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertObjectToFlatDictionaryProviderTestNS", "ConvertObjectToFlatDictionaryProvider\ConvertObjectToFlatDictionaryProviderTestNS\ConvertObjectToFlatDictionaryProviderTestNS.csproj", "{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CopyDirectoryAsyncProvider", "CopyDirectoryAsyncProvider", "{812F7D09-57BE-4066-BD4D-0FB8894D6DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyDirectoryAsyncProviderNS", "CopyDirectoryAsyncProvider\CopyDirectoryAsyncProviderNS\CopyDirectoryAsyncProviderNS.csproj", "{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyDirectoryAsyncProviderTestNS", "CopyDirectoryAsyncProvider\CopyDirectoryAsyncProviderTestNS\CopyDirectoryAsyncProviderTestNS.csproj", "{B334443B-B438-42A2-8245-075E42ABFF7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +193,14 @@ Global
 		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B334443B-B438-42A2-8245-075E42ABFF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B334443B-B438-42A2-8245-075E42ABFF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B334443B-B438-42A2-8245-075E42ABFF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B334443B-B438-42A2-8245-075E42ABFF7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -213,5 +227,7 @@ Global
 		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37} = {CF0A729A-6AF0-4E93-AA6C-C86E95ED06C6}
 		{7767F174-76FA-4830-BB3B-245EC2167454} = {928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}
 		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933} = {928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}
+		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
+		{B334443B-B438-42A2-8245-075E42ABFF7D} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
 	EndGlobalSection
 EndGlobal

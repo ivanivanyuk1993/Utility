@@ -52,3 +52,6 @@
 [submodule "ConvertObjectToFlatDictionaryProvider"]
 	path = ConvertObjectToFlatDictionaryProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConvertObjectToFlatDictionaryProvider.git
+[submodule "CopyDirectoryAsyncProvider"]
+	path = CopyDirectoryAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CopyDirectoryAsyncProvider.git
