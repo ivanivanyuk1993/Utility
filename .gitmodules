@@ -64,3 +64,6 @@
 [submodule "DisposeOnceSyncOrAsyncProvider"]
 	path = DisposeOnceSyncOrAsyncProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.DisposeOnceSyncOrAsyncProvider.git
+[submodule "CrudProto"]
+	path = CrudProto
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CrudProto.git
