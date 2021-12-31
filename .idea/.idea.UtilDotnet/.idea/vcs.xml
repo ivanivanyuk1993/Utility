@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/BenchmarkUtil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CliExitCodeProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CockroachDbMigrationUtil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ComparisonUtil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CountProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FairAsyncReadWriteLock" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetJsonDateProvider" vcs="Git" />
