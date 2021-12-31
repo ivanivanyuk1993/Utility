@@ -46,3 +46,6 @@
 [submodule "ComparisonUtil"]
 	path = ComparisonUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComparisonUtil.git
+[submodule "ConcurrentLinkedList"]
+	path = ConcurrentLinkedList
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConcurrentLinkedList.git

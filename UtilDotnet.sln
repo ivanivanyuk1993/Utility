@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -74,6 +74,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonUtilNS", "ComparisonUtil\ComparisonUtilNS\ComparisonUtilNS.csproj", "{59D62BB5-6953-4CE7-A5CF-A5F9DC4352CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparisonUtilTestNS", "ComparisonUtil\ComparisonUtilTestNS\ComparisonUtilTestNS.csproj", "{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrentLinkedList", "ConcurrentLinkedList", "{CF0A729A-6AF0-4E93-AA6C-C86E95ED06C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentLinkedListNS", "ConcurrentLinkedList\ConcurrentLinkedListNS\ConcurrentLinkedListNS.csproj", "{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,10 @@ Global
 		{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -188,5 +196,6 @@ Global
 		{59C35B99-A1AF-4496-9F8C-04D0EE15614C} = {339C3C94-B3A8-4897-86E3-FCD10EEC6E75}
 		{59D62BB5-6953-4CE7-A5CF-A5F9DC4352CD} = {FF23B506-A0F9-45EE-8B5A-D94977D749B2}
 		{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9} = {FF23B506-A0F9-45EE-8B5A-D94977D749B2}
+		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37} = {CF0A729A-6AF0-4E93-AA6C-C86E95ED06C6}
 	EndGlobalSection
 EndGlobal
