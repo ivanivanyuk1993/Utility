@@ -58,3 +58,6 @@
 [submodule "RunIfFirstCallProvider"]
 	path = RunIfFirstCallProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunIfFirstCallProvider.git
+[submodule "CountingCancellationToken"]
+	path = CountingCancellationToken
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.CountingCancellationToken.git

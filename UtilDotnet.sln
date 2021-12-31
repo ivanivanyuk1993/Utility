@@ -95,6 +95,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunIfFirstCallProvider", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunIfFirstCallProviderNS", "RunIfFirstCallProvider\RunIfFirstCallProviderNS\RunIfFirstCallProviderNS.csproj", "{539C053F-F91C-4D76-93E7-F0F35918899E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountingCancellationToken", "CountingCancellationToken", "{7C08D5D1-E69F-4332-9874-022D8A1A4512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCancellationTokenNS", "CountingCancellationToken\CountingCancellationTokenNS\CountingCancellationTokenNS.csproj", "{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +213,10 @@ Global
 		{539C053F-F91C-4D76-93E7-F0F35918899E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539C053F-F91C-4D76-93E7-F0F35918899E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539C053F-F91C-4D76-93E7-F0F35918899E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -238,5 +246,6 @@ Global
 		{BD29BFC4-23CE-4002-A6B9-CF23E96D977E} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
 		{B334443B-B438-42A2-8245-075E42ABFF7D} = {812F7D09-57BE-4066-BD4D-0FB8894D6DD8}
 		{539C053F-F91C-4D76-93E7-F0F35918899E} = {111BBBF6-23DD-45E5-B412-1784A3A157D3}
+		{44BF0CB4-EBD6-40EA-9555-B75D99FAC39A} = {7C08D5D1-E69F-4332-9874-022D8A1A4512}
 	EndGlobalSection
 EndGlobal
