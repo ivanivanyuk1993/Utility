@@ -73,3 +73,6 @@
 [submodule "ValueWithTimestamp"]
 	path = ValueWithTimestamp
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ValueWithTimestamp.git
+[submodule "DownloadCliUtil"]
+	path = DownloadCliUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.DownloadCliUtil.git
