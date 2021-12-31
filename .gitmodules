@@ -49,3 +49,6 @@
 [submodule "ConcurrentLinkedList"]
 	path = ConcurrentLinkedList
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConcurrentLinkedList.git
+[submodule "ConvertObjectToFlatDictionaryProvider"]
+	path = ConvertObjectToFlatDictionaryProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConvertObjectToFlatDictionaryProvider.git

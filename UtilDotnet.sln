@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -78,6 +78,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrentLinkedList", "ConcurrentLinkedList", "{CF0A729A-6AF0-4E93-AA6C-C86E95ED06C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentLinkedListNS", "ConcurrentLinkedList\ConcurrentLinkedListNS\ConcurrentLinkedListNS.csproj", "{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConvertObjectToFlatDictionaryProvider", "ConvertObjectToFlatDictionaryProvider", "{928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertObjectToFlatDictionaryProviderNS", "ConvertObjectToFlatDictionaryProvider\ConvertObjectToFlatDictionaryProviderNS\ConvertObjectToFlatDictionaryProviderNS.csproj", "{7767F174-76FA-4830-BB3B-245EC2167454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertObjectToFlatDictionaryProviderTestNS", "ConvertObjectToFlatDictionaryProvider\ConvertObjectToFlatDictionaryProviderTestNS\ConvertObjectToFlatDictionaryProviderTestNS.csproj", "{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +179,14 @@ Global
 		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7767F174-76FA-4830-BB3B-245EC2167454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7767F174-76FA-4830-BB3B-245EC2167454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7767F174-76FA-4830-BB3B-245EC2167454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7767F174-76FA-4830-BB3B-245EC2167454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -197,5 +211,7 @@ Global
 		{59D62BB5-6953-4CE7-A5CF-A5F9DC4352CD} = {FF23B506-A0F9-45EE-8B5A-D94977D749B2}
 		{C63B6440-ECD0-4C41-B402-F9B2C2EE05A9} = {FF23B506-A0F9-45EE-8B5A-D94977D749B2}
 		{1BE52CAF-AAF6-46C5-95C4-CEEA31554B37} = {CF0A729A-6AF0-4E93-AA6C-C86E95ED06C6}
+		{7767F174-76FA-4830-BB3B-245EC2167454} = {928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}
+		{9980CCCD-2BF6-4E26-8AC3-5223F7E5D933} = {928BA9AB-D28D-4212-86B6-8BB75E4AAAE3}
 	EndGlobalSection
 EndGlobal
