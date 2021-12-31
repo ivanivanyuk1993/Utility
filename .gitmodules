@@ -61,3 +61,6 @@
 [submodule "CountingCancellationToken"]
 	path = CountingCancellationToken
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.CountingCancellationToken.git
+[submodule "DisposeOnceSyncOrAsyncProvider"]
+	path = DisposeOnceSyncOrAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.DisposeOnceSyncOrAsyncProvider.git
