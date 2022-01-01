@@ -91,3 +91,6 @@
 [submodule "GetCallerFilePathProvider"]
 	path = GetCallerFilePathProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetCallerFilePathProvider.git
+[submodule "GetDebouncedBufferProvider"]
+	path = GetDebouncedBufferProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetDebouncedBufferProvider.git

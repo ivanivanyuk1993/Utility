@@ -25,6 +25,7 @@
     <mapping directory="$PROJECT_DIR$/FairAsyncReadWriteLock" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FilterUtil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetCallerFilePathProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GetDebouncedBufferProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetJsonDateProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAfterProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
