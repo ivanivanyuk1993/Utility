@@ -118,3 +118,6 @@
 [submodule "MoveIndexListInListProvider"]
 	path = MoveIndexListInListProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.MoveIndexListInListProvider.git
+[submodule "ReplaceTemplateVariablesProvider"]
+	path = ReplaceTemplateVariablesProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReplaceTemplateVariablesProvider.git
