@@ -85,3 +85,6 @@
 [submodule "ExpressionUtil"]
 	path = ExpressionUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExpressionUtil.git
+[submodule "FilterUtil"]
+	path = FilterUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.FilterUtil.git
