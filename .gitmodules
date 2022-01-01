@@ -94,3 +94,6 @@
 [submodule "GetDebouncedBufferProvider"]
 	path = GetDebouncedBufferProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetDebouncedBufferProvider.git
+[submodule "GetLikeMatcherProvider"]
+	path = GetLikeMatcherProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetLikeMatcherProvider.git
