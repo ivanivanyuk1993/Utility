@@ -103,3 +103,6 @@
 [submodule "GetUniqueInLocalScopeUintAsyncProvider"]
 	path = GetUniqueInLocalScopeUintAsyncProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueInLocalScopeUintAsyncProvider.git
+[submodule "IsNumberProvider"]
+	path = IsNumberProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.IsNumberProvider.git
