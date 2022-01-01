@@ -124,3 +124,6 @@
 [submodule "MakeConfigurationFilesFromTemplatesProvider"]
 	path = MakeConfigurationFilesFromTemplatesProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.MakeConfigurationFilesFromTemplatesProvider.git
+[submodule "PerfectlyBalancedTree"]
+	path = PerfectlyBalancedTree
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.PerfectlyBalancedTree.git
