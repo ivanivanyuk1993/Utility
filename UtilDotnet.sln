@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -128,6 +128,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExecuteCliCommandAsyncProvider", "ExecuteCliCommandAsyncProvider", "{1578F5AF-82D7-4192-B1EE-B18171810BB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteCliCommandAsyncProviderNS", "ExecuteCliCommandAsyncProvider\ExecuteCliCommandAsyncProviderNS\ExecuteCliCommandAsyncProviderNS.csproj", "{2C73CEBD-6909-4B20-AA23-708EE76124C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExpressionUtil", "ExpressionUtil", "{964972EF-1079-4961-9B2B-BD1148D0138A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionUtilNS", "ExpressionUtil\ExpressionUtilNS\ExpressionUtilNS.csproj", "{6A02736A-87B2-40E1-A83F-D712395249BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionUtilTestNS", "ExpressionUtil\ExpressionUtilTestNS\ExpressionUtilTestNS.csproj", "{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +285,14 @@ Global
 		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A02736A-87B2-40E1-A83F-D712395249BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A02736A-87B2-40E1-A83F-D712395249BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A02736A-87B2-40E1-A83F-D712395249BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A02736A-87B2-40E1-A83F-D712395249BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -317,5 +331,7 @@ Global
 		{74181555-CDE2-4A37-BF53-2A5568DD28D6} = {688D1104-A574-4ADA-9940-3DB79A9ED153}
 		{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE} = {688D1104-A574-4ADA-9940-3DB79A9ED153}
 		{2C73CEBD-6909-4B20-AA23-708EE76124C9} = {1578F5AF-82D7-4192-B1EE-B18171810BB0}
+		{6A02736A-87B2-40E1-A83F-D712395249BE} = {964972EF-1079-4961-9B2B-BD1148D0138A}
+		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26} = {964972EF-1079-4961-9B2B-BD1148D0138A}
 	EndGlobalSection
 EndGlobal

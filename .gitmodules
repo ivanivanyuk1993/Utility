@@ -82,3 +82,6 @@
 [submodule "ExecuteCliCommandAsyncProvider"]
 	path = ExecuteCliCommandAsyncProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExecuteCliCommandAsyncProvider.git
+[submodule "ExpressionUtil"]
+	path = ExpressionUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExpressionUtil.git
