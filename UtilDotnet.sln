@@ -177,6 +177,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLevenshteinProviderN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLevenshteinProviderTestNS", "ComputeLevenshteinProvider\ComputeLevenshteinProviderTestNS\ComputeLevenshteinProviderTestNS.csproj", "{8F9F1F5B-8A81-4398-BF33-7564CE66A297}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComputeLongestCommonSubsequenceLengthProvider", "ComputeLongestCommonSubsequenceLengthProvider", "{60C0E5D1-651A-4298-A0D6-DC42CBF57488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLongestCommonSubsequenceLengthProviderNS", "ComputeLongestCommonSubsequenceLengthProvider\ComputeLongestCommonSubsequenceLengthProviderNS\ComputeLongestCommonSubsequenceLengthProviderNS.csproj", "{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLongestCommonSubsequenceLengthProviderTestNS", "ComputeLongestCommonSubsequenceLengthProvider\ComputeLongestCommonSubsequenceLengthProviderTestNS\ComputeLongestCommonSubsequenceLengthProviderTestNS.csproj", "{F14377F0-9DC4-4910-9013-EF24AD66204F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +393,14 @@ Global
 		{8F9F1F5B-8A81-4398-BF33-7564CE66A297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F9F1F5B-8A81-4398-BF33-7564CE66A297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F9F1F5B-8A81-4398-BF33-7564CE66A297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -440,5 +454,7 @@ Global
 		{4BC103E3-1527-4A70-A736-41D2790AA401} = {2DE89BE7-448C-4F4A-BF75-DC62A9ED7889}
 		{3C39E36A-CEA1-4DD1-B3B8-CBA5939AC84C} = {582CD534-00D7-45E7-856A-665D96716496}
 		{8F9F1F5B-8A81-4398-BF33-7564CE66A297} = {582CD534-00D7-45E7-856A-665D96716496}
+		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E} = {60C0E5D1-651A-4298-A0D6-DC42CBF57488}
+		{F14377F0-9DC4-4910-9013-EF24AD66204F} = {60C0E5D1-651A-4298-A0D6-DC42CBF57488}
 	EndGlobalSection
 EndGlobal

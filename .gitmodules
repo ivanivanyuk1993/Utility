@@ -109,3 +109,6 @@
 [submodule "ComputeLevenshteinProvider"]
 	path = ComputeLevenshteinProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComputeLevenshteinProvider.git
+[submodule "ComputeLongestCommonSubsequenceLengthProvider"]
+	path = ComputeLongestCommonSubsequenceLengthProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComputeLongestCommonSubsequenceLengthProvider.git
