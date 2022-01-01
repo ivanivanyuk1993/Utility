@@ -100,3 +100,6 @@
 [submodule "GetUniqueIdAsyncProvider"]
 	path = GetUniqueIdAsyncProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueIdAsyncProvider.git
+[submodule "GetUniqueInLocalScopeUintAsyncProvider"]
+	path = GetUniqueInLocalScopeUintAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueInLocalScopeUintAsyncProvider.git

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -158,6 +158,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetUniqueIdAsyncProvider", "GetUniqueIdAsyncProvider", "{57209000-E8D7-4654-940D-C79D1A486D48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetUniqueIdAsyncProviderNS", "GetUniqueIdAsyncProvider\GetUniqueIdAsyncProviderNS\GetUniqueIdAsyncProviderNS.csproj", "{22BA9341-8C3D-4E4C-94EE-974284E47CB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetUniqueInLocalScopeUintAsyncProvider", "GetUniqueInLocalScopeUintAsyncProvider", "{3FA27A2A-1012-43ED-AA86-0B023D20844E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetUniqueInLocalScopeUintAsyncProviderNS", "GetUniqueInLocalScopeUintAsyncProvider\GetUniqueInLocalScopeUintAsyncProviderNS\GetUniqueInLocalScopeUintAsyncProviderNS.csproj", "{8D6198E2-5A6B-4205-BB70-B6D8D6567789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetUniqueInLocalScopeUintAsyncProviderTestNS", "GetUniqueInLocalScopeUintAsyncProvider\GetUniqueInLocalScopeUintAsyncProviderTestNS\GetUniqueInLocalScopeUintAsyncProviderTestNS.csproj", "{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +351,14 @@ Global
 		{22BA9341-8C3D-4E4C-94EE-974284E47CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22BA9341-8C3D-4E4C-94EE-974284E47CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22BA9341-8C3D-4E4C-94EE-974284E47CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6198E2-5A6B-4205-BB70-B6D8D6567789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6198E2-5A6B-4205-BB70-B6D8D6567789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6198E2-5A6B-4205-BB70-B6D8D6567789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6198E2-5A6B-4205-BB70-B6D8D6567789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -392,5 +406,7 @@ Global
 		{72BC5808-2233-42AE-B69B-03FB40693FB9} = {2FACD89D-130E-464F-A134-490515E56197}
 		{60A26AE7-EF2C-4DAC-A132-29F85AC4D498} = {4323A165-9BD5-4FEE-8A3C-C13D58E53A50}
 		{22BA9341-8C3D-4E4C-94EE-974284E47CB3} = {57209000-E8D7-4654-940D-C79D1A486D48}
+		{8D6198E2-5A6B-4205-BB70-B6D8D6567789} = {3FA27A2A-1012-43ED-AA86-0B023D20844E}
+		{1502CEB0-EFC3-4AFB-BBD1-D4FB452728A4} = {3FA27A2A-1012-43ED-AA86-0B023D20844E}
 	EndGlobalSection
 EndGlobal
