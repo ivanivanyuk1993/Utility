@@ -97,3 +97,6 @@
 [submodule "GetLikeMatcherProvider"]
 	path = GetLikeMatcherProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetLikeMatcherProvider.git
+[submodule "GetUniqueIdAsyncProvider"]
+	path = GetUniqueIdAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueIdAsyncProvider.git
