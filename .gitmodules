@@ -115,3 +115,6 @@
 [submodule "ValueOrError"]
 	path = ValueOrError
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ValueOrError.git
+[submodule "MoveIndexListInListProvider"]
+	path = MoveIndexListInListProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.MoveIndexListInListProvider.git

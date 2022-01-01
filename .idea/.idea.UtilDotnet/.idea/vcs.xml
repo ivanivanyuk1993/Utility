@@ -33,6 +33,7 @@
     <mapping directory="$PROJECT_DIR$/GetUniqueIdAsyncProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetUniqueInLocalScopeUintAsyncProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/IsNumberProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MoveIndexListInListProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAfterProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunIfFirstCallProvider" vcs="Git" />
