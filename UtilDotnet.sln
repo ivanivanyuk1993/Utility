@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -124,6 +124,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLoopGroupSchedulerNS", "EventLoopGroupScheduler\EventLoopGroupSchedulerNS\EventLoopGroupSchedulerNS.csproj", "{74181555-CDE2-4A37-BF53-2A5568DD28D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventLoopGroupSchedulerTestNS", "EventLoopGroupScheduler\EventLoopGroupSchedulerTestNS\EventLoopGroupSchedulerTestNS.csproj", "{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExecuteCliCommandAsyncProvider", "ExecuteCliCommandAsyncProvider", "{1578F5AF-82D7-4192-B1EE-B18171810BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteCliCommandAsyncProviderNS", "ExecuteCliCommandAsyncProvider\ExecuteCliCommandAsyncProviderNS\ExecuteCliCommandAsyncProviderNS.csproj", "{2C73CEBD-6909-4B20-AA23-708EE76124C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +275,10 @@ Global
 		{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C73CEBD-6909-4B20-AA23-708EE76124C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -308,5 +316,6 @@ Global
 		{6B1010A5-1E3A-4B5C-AB7C-46709D0E598E} = {4EE5C369-2A55-4E1F-B5B2-A63A88007DBD}
 		{74181555-CDE2-4A37-BF53-2A5568DD28D6} = {688D1104-A574-4ADA-9940-3DB79A9ED153}
 		{79B8BAD9-23E6-4FA0-8F6D-9ECACF3E69CE} = {688D1104-A574-4ADA-9940-3DB79A9ED153}
+		{2C73CEBD-6909-4B20-AA23-708EE76124C9} = {1578F5AF-82D7-4192-B1EE-B18171810BB0}
 	EndGlobalSection
 EndGlobal

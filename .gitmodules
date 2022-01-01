@@ -79,3 +79,6 @@
 [submodule "EventLoopGroupScheduler"]
 	path = EventLoopGroupScheduler
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.EventLoopGroupScheduler.git
+[submodule "ExecuteCliCommandAsyncProvider"]
+	path = ExecuteCliCommandAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExecuteCliCommandAsyncProvider.git
