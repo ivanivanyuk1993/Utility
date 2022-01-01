@@ -121,3 +121,6 @@
 [submodule "ReplaceTemplateVariablesProvider"]
 	path = ReplaceTemplateVariablesProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReplaceTemplateVariablesProvider.git
+[submodule "MakeConfigurationFilesFromTemplatesProvider"]
+	path = MakeConfigurationFilesFromTemplatesProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.MakeConfigurationFilesFromTemplatesProvider.git

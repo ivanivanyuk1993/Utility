@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -198,6 +198,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceTemplateVariablesProviderNS", "ReplaceTemplateVariablesProvider\ReplaceTemplateVariablesProviderNS\ReplaceTemplateVariablesProviderNS.csproj", "{9D7B7769-8E87-434C-A5BB-08BE4FB59649}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceTemplateVariablesProviderTestNS", "ReplaceTemplateVariablesProvider\ReplaceTemplateVariablesProviderTestNS\ReplaceTemplateVariablesProviderTestNS.csproj", "{AD7C5E8C-A984-4684-ABF1-64328983D753}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MakeConfigurationFilesFromTemplatesProvider", "MakeConfigurationFilesFromTemplatesProvider", "{3DD24E56-05E5-4F19-A424-A963A97593AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeConfigurationFilesFromTemplatesProviderNS", "MakeConfigurationFilesFromTemplatesProvider\MakeConfigurationFilesFromTemplatesProviderNS\MakeConfigurationFilesFromTemplatesProviderNS.csproj", "{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -437,6 +441,10 @@ Global
 		{AD7C5E8C-A984-4684-ABF1-64328983D753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7C5E8C-A984-4684-ABF1-64328983D753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7C5E8C-A984-4684-ABF1-64328983D753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -497,5 +505,6 @@ Global
 		{E37A12B7-B4AA-43F2-A211-0A72A79CFD5A} = {7BC9D3B1-538A-4144-8156-096C940BC560}
 		{9D7B7769-8E87-434C-A5BB-08BE4FB59649} = {6C6C8522-7588-48E8-8E83-264DD40C6326}
 		{AD7C5E8C-A984-4684-ABF1-64328983D753} = {6C6C8522-7588-48E8-8E83-264DD40C6326}
+		{73060A29-0EE7-42EE-91A4-A8F3D1B5A71A} = {3DD24E56-05E5-4F19-A424-A963A97593AB}
 	EndGlobalSection
 EndGlobal
