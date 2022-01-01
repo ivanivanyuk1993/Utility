@@ -39,6 +39,7 @@
     <mapping directory="$PROJECT_DIR$/RunWithoutGCProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ShardedQueue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpinLockUtil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ValueOrError" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ValueWithTimestamp" vcs="Git" />
   </component>
 </project>

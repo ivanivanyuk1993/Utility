@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -182,6 +182,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLongestCommonSubsequenceLengthProviderNS", "ComputeLongestCommonSubsequenceLengthProvider\ComputeLongestCommonSubsequenceLengthProviderNS\ComputeLongestCommonSubsequenceLengthProviderNS.csproj", "{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeLongestCommonSubsequenceLengthProviderTestNS", "ComputeLongestCommonSubsequenceLengthProvider\ComputeLongestCommonSubsequenceLengthProviderTestNS\ComputeLongestCommonSubsequenceLengthProviderTestNS.csproj", "{F14377F0-9DC4-4910-9013-EF24AD66204F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValueOrError", "ValueOrError", "{34CF5979-DD2D-41D3-AFC1-7C84C9BE6B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueOrErrorNS", "ValueOrError\ValueOrErrorNS\ValueOrErrorNS.csproj", "{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -401,6 +405,10 @@ Global
 		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14377F0-9DC4-4910-9013-EF24AD66204F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -456,5 +464,6 @@ Global
 		{8F9F1F5B-8A81-4398-BF33-7564CE66A297} = {582CD534-00D7-45E7-856A-665D96716496}
 		{A796FFAB-C9CB-4A88-B49F-F91BB5D0B69E} = {60C0E5D1-651A-4298-A0D6-DC42CBF57488}
 		{F14377F0-9DC4-4910-9013-EF24AD66204F} = {60C0E5D1-651A-4298-A0D6-DC42CBF57488}
+		{8F92AF6E-4B47-42AC-8AF2-8AC27C88B352} = {34CF5979-DD2D-41D3-AFC1-7C84C9BE6B4B}
 	EndGlobalSection
 EndGlobal

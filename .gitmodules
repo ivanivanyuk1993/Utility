@@ -112,3 +112,6 @@
 [submodule "ComputeLongestCommonSubsequenceLengthProvider"]
 	path = ComputeLongestCommonSubsequenceLengthProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComputeLongestCommonSubsequenceLengthProvider.git
+[submodule "ValueOrError"]
+	path = ValueOrError
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ValueOrError.git
