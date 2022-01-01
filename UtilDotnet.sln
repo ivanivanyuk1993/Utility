@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -140,6 +140,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterUtilNS", "FilterUtil\FilterUtilNS\FilterUtilNS.csproj", "{11313254-EE63-4872-BB0B-51396CAABF0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterUtilTestNS", "FilterUtil\FilterUtilTestNS\FilterUtilTestNS.csproj", "{5322456F-5528-4585-98A8-1AA49420F795}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetCallerFilePathProvider", "GetCallerFilePathProvider", "{929B27D8-62DB-4967-AAAB-65E9A7E3AA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCallerFilePathProviderNS", "GetCallerFilePathProvider\GetCallerFilePathProviderNS\GetCallerFilePathProviderNS.csproj", "{EDDF22D2-94F6-4FC7-9D05-8385982863EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,6 +311,10 @@ Global
 		{5322456F-5528-4585-98A8-1AA49420F795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5322456F-5528-4585-98A8-1AA49420F795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5322456F-5528-4585-98A8-1AA49420F795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDF22D2-94F6-4FC7-9D05-8385982863EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDF22D2-94F6-4FC7-9D05-8385982863EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDF22D2-94F6-4FC7-9D05-8385982863EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDF22D2-94F6-4FC7-9D05-8385982863EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -349,5 +357,6 @@ Global
 		{CE854EAF-5849-46FD-BFC8-CE0DA4C94C26} = {964972EF-1079-4961-9B2B-BD1148D0138A}
 		{11313254-EE63-4872-BB0B-51396CAABF0B} = {A04329DA-FA79-477E-9409-FE925AF09484}
 		{5322456F-5528-4585-98A8-1AA49420F795} = {A04329DA-FA79-477E-9409-FE925AF09484}
+		{EDDF22D2-94F6-4FC7-9D05-8385982863EC} = {929B27D8-62DB-4967-AAAB-65E9A7E3AA46}
 	EndGlobalSection
 EndGlobal

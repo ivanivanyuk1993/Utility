@@ -88,3 +88,6 @@
 [submodule "FilterUtil"]
 	path = FilterUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.FilterUtil.git
+[submodule "GetCallerFilePathProvider"]
+	path = GetCallerFilePathProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetCallerFilePathProvider.git
