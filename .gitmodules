@@ -145,3 +145,6 @@
 [submodule "StartTaskOrAttachToRunningProvider"]
 	path = StartTaskOrAttachToRunningProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.StartTaskOrAttachToRunningProvider.git
+[submodule "RunCliTaskProvider"]
+	path = RunCliTaskProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunCliTaskProvider.git

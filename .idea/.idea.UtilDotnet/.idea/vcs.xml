@@ -41,6 +41,7 @@
     <mapping directory="$PROJECT_DIR$/ReplaceTemplateVariablesProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAfterProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RunCliTaskProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunIfFirstCallProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunTaskWithImmediateReturnOnCancelProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider" vcs="Git" />

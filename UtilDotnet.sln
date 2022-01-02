@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-#
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -236,6 +236,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartTaskOrAttachToRunningProviderNS", "StartTaskOrAttachToRunningProvider\StartTaskOrAttachToRunningProviderNS\StartTaskOrAttachToRunningProviderNS.csproj", "{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartTaskOrAttachToRunningProviderTestNS", "StartTaskOrAttachToRunningProvider\StartTaskOrAttachToRunningProviderTestNS\StartTaskOrAttachToRunningProviderTestNS.csproj", "{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunCliTaskProvider", "RunCliTaskProvider", "{72818A2A-DE43-4332-B414-44E1AC23E019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunCliTaskProviderNS", "RunCliTaskProvider\RunCliTaskProviderNS\RunCliTaskProviderNS.csproj", "{6193337D-4D2C-42A0-8A44-CB89369C13DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -519,6 +523,10 @@ Global
 		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -590,5 +598,6 @@ Global
 		{8BFE788F-D5C4-4BB9-9242-7E50D541A589} = {B231FF1B-FE18-4A26-91E3-E25BAC5A05BE}
 		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2} = {789DF592-BC4C-4105-B1FD-210722884D3A}
 		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483} = {789DF592-BC4C-4105-B1FD-210722884D3A}
+		{6193337D-4D2C-42A0-8A44-CB89369C13DE} = {72818A2A-DE43-4332-B414-44E1AC23E019}
 	EndGlobalSection
 EndGlobal
