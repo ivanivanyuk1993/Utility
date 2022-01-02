@@ -133,3 +133,6 @@
 [submodule "ReactiveValueProvider"]
 	path = ReactiveValueProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReactiveValueProvider.git
+[submodule "TakeUntilNotifier"]
+	path = TakeUntilNotifier
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.TakeUntilNotifier.git
