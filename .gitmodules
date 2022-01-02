@@ -139,3 +139,6 @@
 [submodule "RunTaskWithImmediateReturnOnCancelProvider"]
 	path = RunTaskWithImmediateReturnOnCancelProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunTaskWithImmediateReturnOnCancelProvider.git
+[submodule "RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider"]
+	path = RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider.git

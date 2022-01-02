@@ -43,6 +43,7 @@
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunIfFirstCallProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunTaskWithImmediateReturnOnCancelProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunWithoutGCProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ShardedQueue" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpinLockUtil" vcs="Git" />
