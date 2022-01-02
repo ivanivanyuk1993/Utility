@@ -39,6 +39,7 @@
     <mapping directory="$PROJECT_DIR$/PerfectlyBalancedTree" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ReactiveValueProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ReplaceTemplateVariablesProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RestrictedGitSubmoduleCliUtil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAfterProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunAtomicallyProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RunCliTaskProvider" vcs="Git" />

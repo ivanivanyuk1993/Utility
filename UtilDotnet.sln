@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpinLockUtil", "SpinLockUtil", "{57B7C07C-654E-41D3-8E85-34FB40B790F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockUtilNS", "SpinLockUtil\SpinLockUtilNS\SpinLockUtilNS.csproj", "{B487E407-0A41-46B9-8515-82472631E6AA}"
@@ -240,6 +240,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RunCliTaskProvider", "RunCliTaskProvider", "{72818A2A-DE43-4332-B414-44E1AC23E019}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunCliTaskProviderNS", "RunCliTaskProvider\RunCliTaskProviderNS\RunCliTaskProviderNS.csproj", "{6193337D-4D2C-42A0-8A44-CB89369C13DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestrictedGitSubmoduleCliUtil", "RestrictedGitSubmoduleCliUtil", "{BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetListOfDirectSubmodulesAsyncProviderNS", "RestrictedGitSubmoduleCliUtil\GetListOfDirectSubmodulesAsyncProviderNS\GetListOfDirectSubmodulesAsyncProviderNS.csproj", "{92425910-036F-42E3-9CDB-6ECB6F121300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetListOfDirectSubmodulesAsyncProviderTestNS", "RestrictedGitSubmoduleCliUtil\GetListOfDirectSubmodulesAsyncProviderTestNS\GetListOfDirectSubmodulesAsyncProviderTestNS.csproj", "{274345A7-67F8-4564-B969-C1DD92E98234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetListOfAccessibleGitSubmodulesAsyncProviderNS", "RestrictedGitSubmoduleCliUtil\GetListOfAccessibleGitSubmodulesAsyncProviderNS\GetListOfAccessibleGitSubmodulesAsyncProviderNS.csproj", "{A6D7C104-7D19-46BA-88AC-9047FFF5D21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSubmoduleInfoNS", "RestrictedGitSubmoduleCliUtil\GitSubmoduleInfoNS\GitSubmoduleInfoNS.csproj", "{84748F1D-8328-42FB-ACA6-889088BDA549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetListOfAccessibleGitSubmodulesAsyncProviderTestNS", "RestrictedGitSubmoduleCliUtil\GetListOfAccessibleGitSubmodulesAsyncProviderTestNS\GetListOfAccessibleGitSubmodulesAsyncProviderTestNS.csproj", "{061A9D24-9EA7-44A8-95ED-E605294A76A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -527,6 +539,26 @@ Global
 		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6193337D-4D2C-42A0-8A44-CB89369C13DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92425910-036F-42E3-9CDB-6ECB6F121300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92425910-036F-42E3-9CDB-6ECB6F121300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92425910-036F-42E3-9CDB-6ECB6F121300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92425910-036F-42E3-9CDB-6ECB6F121300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274345A7-67F8-4564-B969-C1DD92E98234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274345A7-67F8-4564-B969-C1DD92E98234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274345A7-67F8-4564-B969-C1DD92E98234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274345A7-67F8-4564-B969-C1DD92E98234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84748F1D-8328-42FB-ACA6-889088BDA549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84748F1D-8328-42FB-ACA6-889088BDA549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84748F1D-8328-42FB-ACA6-889088BDA549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84748F1D-8328-42FB-ACA6-889088BDA549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -599,5 +631,10 @@ Global
 		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2} = {789DF592-BC4C-4105-B1FD-210722884D3A}
 		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483} = {789DF592-BC4C-4105-B1FD-210722884D3A}
 		{6193337D-4D2C-42A0-8A44-CB89369C13DE} = {72818A2A-DE43-4332-B414-44E1AC23E019}
+		{92425910-036F-42E3-9CDB-6ECB6F121300} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{274345A7-67F8-4564-B969-C1DD92E98234} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{84748F1D-8328-42FB-ACA6-889088BDA549} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{061A9D24-9EA7-44A8-95ED-E605294A76A0} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
 	EndGlobalSection
 EndGlobal

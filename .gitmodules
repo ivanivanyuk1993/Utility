@@ -151,3 +151,6 @@
 [submodule "todo"]
 	path = todo
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.todo.git
+[submodule "RestrictedGitSubmoduleCliUtil"]
+	path = RestrictedGitSubmoduleCliUtil
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RestrictedGitSubmoduleCliUtil.git
