@@ -136,3 +136,6 @@
 [submodule "TakeUntilNotifier"]
 	path = TakeUntilNotifier
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.TakeUntilNotifier.git
+[submodule "RunTaskWithImmediateReturnOnCancelProvider"]
+	path = RunTaskWithImmediateReturnOnCancelProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunTaskWithImmediateReturnOnCancelProvider.git
