@@ -127,3 +127,6 @@
 [submodule "PerfectlyBalancedTree"]
 	path = PerfectlyBalancedTree
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.PerfectlyBalancedTree.git
+[submodule "GetValueObservableProvider"]
+	path = GetValueObservableProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetValueObservableProvider.git
