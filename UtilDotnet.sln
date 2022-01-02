@@ -231,6 +231,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunWithOriginalIfSequential
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProviderTestNS", "RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider\RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProviderTestNS\RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProviderTestNS.csproj", "{8BFE788F-D5C4-4BB9-9242-7E50D541A589}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StartTaskOrAttachToRunningProvider", "StartTaskOrAttachToRunningProvider", "{789DF592-BC4C-4105-B1FD-210722884D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartTaskOrAttachToRunningProviderNS", "StartTaskOrAttachToRunningProvider\StartTaskOrAttachToRunningProviderNS\StartTaskOrAttachToRunningProviderNS.csproj", "{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartTaskOrAttachToRunningProviderTestNS", "StartTaskOrAttachToRunningProvider\StartTaskOrAttachToRunningProviderTestNS\StartTaskOrAttachToRunningProviderTestNS.csproj", "{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -505,6 +511,14 @@ Global
 		{8BFE788F-D5C4-4BB9-9242-7E50D541A589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFE788F-D5C4-4BB9-9242-7E50D541A589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFE788F-D5C4-4BB9-9242-7E50D541A589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -574,5 +588,7 @@ Global
 		{27CDAC15-EA27-40B5-BF11-0336262046B5} = {8C497761-158A-4AA3-A456-45C4F6C3287C}
 		{9C724BA6-A123-4E3D-8FCB-DAD8C9D93A6E} = {B231FF1B-FE18-4A26-91E3-E25BAC5A05BE}
 		{8BFE788F-D5C4-4BB9-9242-7E50D541A589} = {B231FF1B-FE18-4A26-91E3-E25BAC5A05BE}
+		{66DEDFAD-413E-4F49-92C0-8D9DE45A0EE2} = {789DF592-BC4C-4105-B1FD-210722884D3A}
+		{560E109E-3676-4D5C-9A2D-8F6DBEB2E483} = {789DF592-BC4C-4105-B1FD-210722884D3A}
 	EndGlobalSection
 EndGlobal

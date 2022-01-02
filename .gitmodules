@@ -142,3 +142,6 @@
 [submodule "RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider"]
 	path = RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider.git
+[submodule "StartTaskOrAttachToRunningProvider"]
+	path = StartTaskOrAttachToRunningProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.StartTaskOrAttachToRunningProvider.git
