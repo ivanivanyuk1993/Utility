@@ -130,3 +130,6 @@
 [submodule "GetValueObservableProvider"]
 	path = GetValueObservableProvider
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetValueObservableProvider.git
+[submodule "ReactiveValueProvider"]
+	path = ReactiveValueProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReactiveValueProvider.git

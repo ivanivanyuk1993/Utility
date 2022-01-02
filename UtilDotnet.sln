@@ -213,6 +213,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetValueObservableProvider"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetValueObservableProviderNS", "GetValueObservableProvider\GetValueObservableProviderNS\GetValueObservableProviderNS.csproj", "{EDFC4C4B-17DD-4CA0-8385-0EE57810AC48}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReactiveValueProvider", "ReactiveValueProvider", "{D00C50F6-018C-4521-A109-53770A5A9AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveValueProviderNS", "ReactiveValueProvider\ReactiveValueProviderNS\ReactiveValueProviderNS.csproj", "{11C7FCBE-1782-4E44-BACB-0C0B67D9B029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -467,6 +471,10 @@ Global
 		{EDFC4C4B-17DD-4CA0-8385-0EE57810AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDFC4C4B-17DD-4CA0-8385-0EE57810AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDFC4C4B-17DD-4CA0-8385-0EE57810AC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C7FCBE-1782-4E44-BACB-0C0B67D9B029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C7FCBE-1782-4E44-BACB-0C0B67D9B029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C7FCBE-1782-4E44-BACB-0C0B67D9B029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C7FCBE-1782-4E44-BACB-0C0B67D9B029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -531,5 +539,6 @@ Global
 		{08D985B9-3656-4B7D-A27F-F33C2AA7008A} = {6A45146D-C453-4836-B7B0-4D08A8832235}
 		{F877A3D0-7312-4479-9FDD-0D653B8D7383} = {6A45146D-C453-4836-B7B0-4D08A8832235}
 		{EDFC4C4B-17DD-4CA0-8385-0EE57810AC48} = {6CBF64B8-A830-47F6-940B-A56F1C4FB83E}
+		{11C7FCBE-1782-4E44-BACB-0C0B67D9B029} = {D00C50F6-018C-4521-A109-53770A5A9AC5}
 	EndGlobalSection
 EndGlobal
