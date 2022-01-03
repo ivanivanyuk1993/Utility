@@ -154,6 +154,6 @@
 [submodule "RestrictedGitSubmoduleCliUtil"]
 	path = RestrictedGitSubmoduleCliUtil
 	url = git@github.com:ivanivanyuk1993/UtilDotnet.RestrictedGitSubmoduleCliUtil.git
-[submodule "NewLineRegexPatternProvider"]
-	path = NewLineRegexPatternProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.NewLineRegexPatternProvider.git
+[submodule "NormalizeLineBreaksProvider"]
+	path = NormalizeLineBreaksProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.NormalizeLineBreaksProvider.git
