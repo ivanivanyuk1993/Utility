@@ -253,6 +253,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSubmoduleInfoNS", "Restr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetListOfAccessibleGitSubmodulesAsyncProviderTestNS", "RestrictedGitSubmoduleCliUtil\GetListOfAccessibleGitSubmodulesAsyncProviderTestNS\GetListOfAccessibleGitSubmodulesAsyncProviderTestNS.csproj", "{061A9D24-9EA7-44A8-95ED-E605294A76A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSubmoduleInitAccessibleAsyncProviderNS", "RestrictedGitSubmoduleCliUtil\GitSubmoduleInitAccessibleAsyncProviderNS\GitSubmoduleInitAccessibleAsyncProviderNS.csproj", "{4FF345B2-CD4E-47DD-B4DB-DB704120B24E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitmodulesFileNameProviderNS", "RestrictedGitSubmoduleCliUtil\GitmodulesFileNameProviderNS\GitmodulesFileNameProviderNS.csproj", "{23A48B09-6908-4F58-AF76-6821836BF9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSubmoduleInitAccessibleCli", "RestrictedGitSubmoduleCliUtil\GitSubmoduleInitAccessibleCli\GitSubmoduleInitAccessibleCli.csproj", "{B750F3EB-0440-45AB-B548-0B231F27C23A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -559,6 +565,18 @@ Global
 		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061A9D24-9EA7-44A8-95ED-E605294A76A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF345B2-CD4E-47DD-B4DB-DB704120B24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF345B2-CD4E-47DD-B4DB-DB704120B24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF345B2-CD4E-47DD-B4DB-DB704120B24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF345B2-CD4E-47DD-B4DB-DB704120B24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A48B09-6908-4F58-AF76-6821836BF9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A48B09-6908-4F58-AF76-6821836BF9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A48B09-6908-4F58-AF76-6821836BF9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A48B09-6908-4F58-AF76-6821836BF9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B750F3EB-0440-45AB-B548-0B231F27C23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B750F3EB-0440-45AB-B548-0B231F27C23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B750F3EB-0440-45AB-B548-0B231F27C23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B750F3EB-0440-45AB-B548-0B231F27C23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -636,5 +654,8 @@ Global
 		{A6D7C104-7D19-46BA-88AC-9047FFF5D21F} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
 		{84748F1D-8328-42FB-ACA6-889088BDA549} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
 		{061A9D24-9EA7-44A8-95ED-E605294A76A0} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{4FF345B2-CD4E-47DD-B4DB-DB704120B24E} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{23A48B09-6908-4F58-AF76-6821836BF9B9} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
+		{B750F3EB-0440-45AB-B548-0B231F27C23A} = {BBCCBE4D-80A3-4DE9-BEBD-07B47F7D2CAF}
 	EndGlobalSection
 EndGlobal
