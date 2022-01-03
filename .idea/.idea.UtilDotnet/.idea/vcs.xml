@@ -36,6 +36,7 @@
     <mapping directory="$PROJECT_DIR$/IsNumberProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MakeConfigurationFilesFromTemplatesProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MoveIndexListInListProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NewLineRegexPatternProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PerfectlyBalancedTree" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ReactiveValueProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ReplaceTemplateVariablesProvider" vcs="Git" />
