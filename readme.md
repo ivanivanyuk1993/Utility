@@ -59,3 +59,7 @@ dotnet build \
     --configuration Release \
     /p:KubernetesConfigurationInstanceProviderRootPath="${KubernetesConfigurationInstanceProviderRootPath}"
 ```
+### Why security is needed for employer
+Because you want to hire developers from least expensive to live areas. You usually can't do it, because it usually means you usually give new developers too much access to your system, and you don't trust new developers(because it is correct and logical not to trust new developers or people). With atomic access(like with using submodules) you can hire developers from cheapest areas to live(such areas usually have worst reputation, but it is not a problem anymore)
+### Why security is needed for developer
+For me it is needed, because I live not in most expensive area to live and will benefit from being hire-able by employers from such areas
