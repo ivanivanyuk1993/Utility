@@ -4,4 +4,6 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 
+# Generated sln and `.idea` files
 /UtilDotnet.only-accessible.generated.sln
+/.idea/.idea.UtilDotnet.only-accessible.generated
