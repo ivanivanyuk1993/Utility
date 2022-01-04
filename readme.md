@@ -1,4 +1,5 @@
 # UtilDotnet
+## Why heavy use submodules
 Project uses submodules to atomically control access to parts of library `UtilDotnet`, like giving public access to projects we can benefit from sharing(like API interfaces(to talk in same language), or code which won't give too much competitive advantage when hidden, but can give benefit if community finds bugs in it, etc.), and giving access to developers on need to know basis(to not have situation when all developers have access to everything and we can not hire juniors(from any country, even with cheapest salaries and worst reputation) or new developers without fear)
 
 Notice that project assumes flat structure and expects that all projects are modified as part of solution `UtilNet.sln`, but if you need more complex structure, you can start using(on first need) following approach
@@ -39,4 +40,11 @@ dotnet build \
     ./Deploy/Deploy.sln \
     --configuration Release \
     /p:KubernetesConfigurationInstanceProviderRootPath="${KubernetesConfigurationInstanceProviderRootPath}"
+```
+
+## How to
+### Make commits
+- Commit convention was not chosen, so you can follow any convention you like, but do not forget to add information on which changes were made, where and why, like
+```
+Fixed bug in logic ... in file ... to prevent errors like ...
 ```
