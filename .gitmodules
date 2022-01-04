@@ -3,157 +3,157 @@
 	url = ../UtilDotnet.SpinLockUtil.git
 [submodule "ShardedQueue"]
 	path = ShardedQueue
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ShardedQueue.git
+	url = ../UtilDotnet.ShardedQueue.git
 [submodule "AsyncReadWriteLock"]
 	path = AsyncReadWriteLock
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncReadWriteLock.git
+	url = ../UtilDotnet.AsyncReadWriteLock.git
 [submodule "RunAtomicallyProvider"]
 	path = RunAtomicallyProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunAtomicallyProvider.git
+	url = ../UtilDotnet.RunAtomicallyProvider.git
 [submodule "AssertBenchmarkRelatedTestShouldNotRunInDebugProvider"]
 	path = AssertBenchmarkRelatedTestShouldNotRunInDebugProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.AssertBenchmarkRelatedTestShouldNotRunInDebugProvider.git
+	url = ../UtilDotnet.AssertBenchmarkRelatedTestShouldNotRunInDebugProvider.git
 [submodule "BenchmarkUtil"]
 	path = BenchmarkUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.BenchmarkUtil.git
+	url = ../UtilDotnet.BenchmarkUtil.git
 [submodule "CountProvider"]
 	path = CountProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CountProvider.git
+	url = ../UtilDotnet.CountProvider.git
 [submodule "RunWithoutGCProvider"]
 	path = RunWithoutGCProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunWithoutGCProvider.git
+	url = ../UtilDotnet.RunWithoutGCProvider.git
 [submodule "FairAsyncReadWriteLock"]
 	path = FairAsyncReadWriteLock
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.FairAsyncReadWriteLock.git
+	url = ../UtilDotnet.FairAsyncReadWriteLock.git
 [submodule "AssertTimeUtil"]
 	path = AssertTimeUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.AssertTimeUtil.git
+	url = ../UtilDotnet.AssertTimeUtil.git
 [submodule "RunAfterProvider"]
 	path = RunAfterProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunAfterProvider.git
+	url = ../UtilDotnet.RunAfterProvider.git
 [submodule "GetJsonDateProvider"]
 	path = GetJsonDateProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetJsonDateProvider.git
+	url = ../UtilDotnet.GetJsonDateProvider.git
 [submodule "AsyncLazy"]
 	path = AsyncLazy
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.AsyncLazy.git
+	url = ../UtilDotnet.AsyncLazy.git
 [submodule "CliExitCodeProvider"]
 	path = CliExitCodeProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CliExitCodeProvider.git
+	url = ../UtilDotnet.CliExitCodeProvider.git
 [submodule "CockroachDbMigrationUtil"]
 	path = CockroachDbMigrationUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CockroachDbMigrationUtil.git
+	url = ../UtilDotnet.CockroachDbMigrationUtil.git
 [submodule "ComparisonUtil"]
 	path = ComparisonUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComparisonUtil.git
+	url = ../UtilDotnet.ComparisonUtil.git
 [submodule "ConcurrentLinkedList"]
 	path = ConcurrentLinkedList
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConcurrentLinkedList.git
+	url = ../UtilDotnet.ConcurrentLinkedList.git
 [submodule "ConvertObjectToFlatDictionaryProvider"]
 	path = ConvertObjectToFlatDictionaryProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ConvertObjectToFlatDictionaryProvider.git
+	url = ../UtilDotnet.ConvertObjectToFlatDictionaryProvider.git
 [submodule "CopyDirectoryAsyncProvider"]
 	path = CopyDirectoryAsyncProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CopyDirectoryAsyncProvider.git
+	url = ../UtilDotnet.CopyDirectoryAsyncProvider.git
 [submodule "RunIfFirstCallProvider"]
 	path = RunIfFirstCallProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunIfFirstCallProvider.git
+	url = ../UtilDotnet.RunIfFirstCallProvider.git
 [submodule "CountingCancellationToken"]
 	path = CountingCancellationToken
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CountingCancellationToken.git
+	url = ../UtilDotnet.CountingCancellationToken.git
 [submodule "DisposeOnceSyncOrAsyncProvider"]
 	path = DisposeOnceSyncOrAsyncProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.DisposeOnceSyncOrAsyncProvider.git
+	url = ../UtilDotnet.DisposeOnceSyncOrAsyncProvider.git
 [submodule "CrudProto"]
 	path = CrudProto
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.CrudProto.git
+	url = ../UtilDotnet.CrudProto.git
 [submodule "DoEnumerablesOverlapProvider"]
 	path = DoEnumerablesOverlapProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.DoEnumerablesOverlapProvider.git
+	url = ../UtilDotnet.DoEnumerablesOverlapProvider.git
 [submodule "ValueWithTimestamp"]
 	path = ValueWithTimestamp
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ValueWithTimestamp.git
+	url = ../UtilDotnet.ValueWithTimestamp.git
 [submodule "DownloadCliUtil"]
 	path = DownloadCliUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.DownloadCliUtil.git
+	url = ../UtilDotnet.DownloadCliUtil.git
 [submodule "EventLoopGroupScheduler"]
 	path = EventLoopGroupScheduler
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.EventLoopGroupScheduler.git
+	url = ../UtilDotnet.EventLoopGroupScheduler.git
 [submodule "ExecuteCliCommandAsyncProvider"]
 	path = ExecuteCliCommandAsyncProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExecuteCliCommandAsyncProvider.git
+	url = ../UtilDotnet.ExecuteCliCommandAsyncProvider.git
 [submodule "ExpressionUtil"]
 	path = ExpressionUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ExpressionUtil.git
+	url = ../UtilDotnet.ExpressionUtil.git
 [submodule "FilterUtil"]
 	path = FilterUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.FilterUtil.git
+	url = ../UtilDotnet.FilterUtil.git
 [submodule "GetCallerFilePathProvider"]
 	path = GetCallerFilePathProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetCallerFilePathProvider.git
+	url = ../UtilDotnet.GetCallerFilePathProvider.git
 [submodule "GetDebouncedBufferProvider"]
 	path = GetDebouncedBufferProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetDebouncedBufferProvider.git
+	url = ../UtilDotnet.GetDebouncedBufferProvider.git
 [submodule "GetLikeMatcherProvider"]
 	path = GetLikeMatcherProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetLikeMatcherProvider.git
+	url = ../UtilDotnet.GetLikeMatcherProvider.git
 [submodule "GetUniqueIdAsyncProvider"]
 	path = GetUniqueIdAsyncProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueIdAsyncProvider.git
+	url = ../UtilDotnet.GetUniqueIdAsyncProvider.git
 [submodule "GetUniqueInLocalScopeUintAsyncProvider"]
 	path = GetUniqueInLocalScopeUintAsyncProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetUniqueInLocalScopeUintAsyncProvider.git
+	url = ../UtilDotnet.GetUniqueInLocalScopeUintAsyncProvider.git
 [submodule "IsNumberProvider"]
 	path = IsNumberProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.IsNumberProvider.git
+	url = ../UtilDotnet.IsNumberProvider.git
 [submodule "ComputeLevenshteinProvider"]
 	path = ComputeLevenshteinProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComputeLevenshteinProvider.git
+	url = ../UtilDotnet.ComputeLevenshteinProvider.git
 [submodule "ComputeLongestCommonSubsequenceLengthProvider"]
 	path = ComputeLongestCommonSubsequenceLengthProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ComputeLongestCommonSubsequenceLengthProvider.git
+	url = ../UtilDotnet.ComputeLongestCommonSubsequenceLengthProvider.git
 [submodule "ValueOrError"]
 	path = ValueOrError
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ValueOrError.git
+	url = ../UtilDotnet.ValueOrError.git
 [submodule "MoveIndexListInListProvider"]
 	path = MoveIndexListInListProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.MoveIndexListInListProvider.git
+	url = ../UtilDotnet.MoveIndexListInListProvider.git
 [submodule "ReplaceTemplateVariablesProvider"]
 	path = ReplaceTemplateVariablesProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReplaceTemplateVariablesProvider.git
+	url = ../UtilDotnet.ReplaceTemplateVariablesProvider.git
 [submodule "MakeConfigurationFilesFromTemplatesProvider"]
 	path = MakeConfigurationFilesFromTemplatesProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.MakeConfigurationFilesFromTemplatesProvider.git
+	url = ../UtilDotnet.MakeConfigurationFilesFromTemplatesProvider.git
 [submodule "PerfectlyBalancedTree"]
 	path = PerfectlyBalancedTree
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.PerfectlyBalancedTree.git
+	url = ../UtilDotnet.PerfectlyBalancedTree.git
 [submodule "GetValueObservableProvider"]
 	path = GetValueObservableProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetValueObservableProvider.git
+	url = ../UtilDotnet.GetValueObservableProvider.git
 [submodule "ReactiveValueProvider"]
 	path = ReactiveValueProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.ReactiveValueProvider.git
+	url = ../UtilDotnet.ReactiveValueProvider.git
 [submodule "TakeUntilNotifier"]
 	path = TakeUntilNotifier
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.TakeUntilNotifier.git
+	url = ../UtilDotnet.TakeUntilNotifier.git
 [submodule "RunTaskWithImmediateReturnOnCancelProvider"]
 	path = RunTaskWithImmediateReturnOnCancelProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunTaskWithImmediateReturnOnCancelProvider.git
+	url = ../UtilDotnet.RunTaskWithImmediateReturnOnCancelProvider.git
 [submodule "RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider"]
 	path = RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider.git
+	url = ../UtilDotnet.RunWithOriginalIfSequentialCallOrCloneIfConcurrentCallProvider.git
 [submodule "StartTaskOrAttachToRunningProvider"]
 	path = StartTaskOrAttachToRunningProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.StartTaskOrAttachToRunningProvider.git
+	url = ../UtilDotnet.StartTaskOrAttachToRunningProvider.git
 [submodule "RunCliTaskProvider"]
 	path = RunCliTaskProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RunCliTaskProvider.git
+	url = ../UtilDotnet.RunCliTaskProvider.git
 [submodule "todo"]
 	path = todo
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.todo.git
+	url = ../UtilDotnet.todo.git
 [submodule "RestrictedGitSubmoduleCliUtil"]
 	path = RestrictedGitSubmoduleCliUtil
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.RestrictedGitSubmoduleCliUtil.git
+	url = ../UtilDotnet.RestrictedGitSubmoduleCliUtil.git
 [submodule "NormalizeLineBreaksProvider"]
 	path = NormalizeLineBreaksProvider
-	url = git@github.com:ivanivanyuk1993/UtilDotnet.NormalizeLineBreaksProvider.git
+	url = ../UtilDotnet.NormalizeLineBreaksProvider.git
