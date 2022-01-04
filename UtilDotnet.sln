@@ -247,6 +247,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeLineBreaksProvider
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalizeLineBreaksProviderTestNS", "NormalizeLineBreaksProvider\NormalizeLineBreaksProviderTestNS\NormalizeLineBreaksProviderTestNS.csproj", "{1432C3C0-DD19-4A6F-A56B-0528CB344966}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteCliCommandResultNS", "ExecuteCliCommandAsyncProvider\ExecuteCliCommandResultNS\ExecuteCliCommandResultNS.csproj", "{858E9684-2788-4BBD-B900-39637AD3A729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -541,6 +543,10 @@ Global
 		{1432C3C0-DD19-4A6F-A56B-0528CB344966}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1432C3C0-DD19-4A6F-A56B-0528CB344966}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1432C3C0-DD19-4A6F-A56B-0528CB344966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858E9684-2788-4BBD-B900-39637AD3A729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858E9684-2788-4BBD-B900-39637AD3A729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858E9684-2788-4BBD-B900-39637AD3A729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858E9684-2788-4BBD-B900-39637AD3A729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -615,5 +621,6 @@ Global
 		{6193337D-4D2C-42A0-8A44-CB89369C13DE} = {72818A2A-DE43-4332-B414-44E1AC23E019}
 		{697A33E0-84F5-48E2-938C-D15A1494CD6D} = {C7547B20-9F36-43E0-A376-3421717AA1A6}
 		{1432C3C0-DD19-4A6F-A56B-0528CB344966} = {C7547B20-9F36-43E0-A376-3421717AA1A6}
+		{858E9684-2788-4BBD-B900-39637AD3A729} = {1578F5AF-82D7-4192-B1EE-B18171810BB0}
 	EndGlobalSection
 EndGlobal
