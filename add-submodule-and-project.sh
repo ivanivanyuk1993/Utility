@@ -2,7 +2,7 @@
 REPOSITORY_NAME=$1
 
 git submodule add \
-  "git@github.com:ivanivanyuk1993/UtilDotnet.${REPOSITORY_NAME}.git" \
+  "../UtilDotnet.${REPOSITORY_NAME}.git" \
   "${REPOSITORY_NAME}" \
 && \
 dotnet sln UtilDotnet.sln add \
