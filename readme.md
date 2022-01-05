@@ -3,7 +3,7 @@
 ### Show list of git repositories, needed to work on `csproj` list
 Run command like
 ```
-bash show-git-repository-list-to-work-wth-csproject-list.sh \
+bash show-git-repository-list-to-work-with-csproject-list.sh \
     GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider/ShowGitRepositoryUrlListToWorkWithCsprojectListCli/ShowGitRepositoryUrlListToWorkWithCsprojectListCli.csproj \
     FairAsyncReadWriteLock/FairAsyncReadWriteLockTestNS/FairAsyncReadWriteLockTestNS.csproj
 ```
