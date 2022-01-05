@@ -157,3 +157,9 @@
 [submodule "NormalizeLineBreaksProvider"]
 	path = NormalizeLineBreaksProvider
 	url = ../UtilDotnet.NormalizeLineBreaksProvider.git
+[submodule "GetListOfGitRepositoryUrlsToWorkWithCsprojectListAsyncProvider"]
+	path = GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider.git
+[submodule "GetGitRepositoryUrlAsyncProvider"]
+	path = GetGitRepositoryUrlAsyncProvider
+	url = git@github.com:ivanivanyuk1993/UtilDotnet.GetGitRepositoryUrlAsyncProvider.git

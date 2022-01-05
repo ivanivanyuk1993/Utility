@@ -28,6 +28,8 @@
     <mapping directory="$PROJECT_DIR$/FilterUtil" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetCallerFilePathProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetDebouncedBufferProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GetGitRepositoryUrlAsyncProvider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetJsonDateProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetLikeMatcherProvider" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GetUniqueIdAsyncProvider" vcs="Git" />

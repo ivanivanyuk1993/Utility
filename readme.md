@@ -1,5 +1,12 @@
 # UtilDotnet
 ## How to
+### Show list of git repositories, needed to work on `csproj` list
+Run command like
+```
+bash show-git-repository-list-to-work-wth-csproject-list.sh \
+    GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider/ShowGitRepositoryUrlListToWorkWithCsprojectListCli/ShowGitRepositoryUrlListToWorkWithCsprojectListCli.csproj \
+    FairAsyncReadWriteLock/FairAsyncReadWriteLockTestNS/FairAsyncReadWriteLockTestNS.csproj
+```
 ### Start working with repository
 - Clone repository with git
 - Open console(which supports bash) in repository root
