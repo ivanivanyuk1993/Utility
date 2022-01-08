@@ -163,3 +163,6 @@
 [submodule "GetGitRepositoryUrlAsyncProvider"]
 	path = GetGitRepositoryUrlAsyncProvider
 	url = ../UtilDotnet.GetGitRepositoryUrlAsyncProvider.git
+[submodule "AddVcsRootMappingsToIdeAsyncProvider"]
+	path = AddVcsRootMappingsToIdeAsyncProvider
+	url = ../UtilDotnet.AddVcsRootMappingsToIdeAsyncProvider.git

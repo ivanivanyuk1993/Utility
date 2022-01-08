@@ -7,6 +7,11 @@ bash show-git-repository-list-to-work-with-csproject-list.sh \
     GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider/ShowGitRepositoryUrlListToWorkWithCsprojectListCli/ShowGitRepositoryUrlListToWorkWithCsprojectListCli.csproj \
     FairAsyncReadWriteLock/FairAsyncReadWriteLockTestNS/FairAsyncReadWriteLockTestNS.csproj
 ```
+### Make commits
+- Commit convention was not chosen, so you can follow any convention you like, but do not forget to add information on which changes were made, where and why, like
+```
+Fixed bug in logic ... in file ... to prevent errors like ...
+```
 ### Start working with repository
 - Clone repository with git
 - Open console(which supports bash) in repository root
@@ -15,11 +20,9 @@ bash show-git-repository-list-to-work-with-csproject-list.sh \
 bash init-accessible-submodules.sh
 ```
 - Open generated `UtilDotnet.only-accessible.generated.sln` in IDE
-### Make commits
-- Commit convention was not chosen, so you can follow any convention you like, but do not forget to add information on which changes were made, where and why, like
-```
-Fixed bug in logic ... in file ... to prevent errors like ...
-```
+### Register submodules in VCS mappings of JetBrains IDE
+- Open solution in IDE at least once - to generate directory `.idea`
+- Run `add-vcs-root-mappings-to-ide.sh`
 
 ## Architecture decision explanations
 ### Why heavy use of submodules

@@ -263,6 +263,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetGitRepositoryUrlAsyncPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowGitRepositoryUrlListToWorkWithCsprojectListCli", "GetGitRepositoryUrlListToWorkWithCsprojectListAsyncProvider\ShowGitRepositoryUrlListToWorkWithCsprojectListCli\ShowGitRepositoryUrlListToWorkWithCsprojectListCli.csproj", "{96D88C86-FCC0-4C08-B970-085FD0D2B2CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddVcsRootMappingsToIdeAsyncProvider", "AddVcsRootMappingsToIdeAsyncProvider", "{C7FA9008-B492-48A3-AC54-228E68BDE7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddVcsRootMappingsToIdeAsyncProviderNS", "AddVcsRootMappingsToIdeAsyncProvider\AddVcsRootMappingsToIdeAsyncProviderNS\AddVcsRootMappingsToIdeAsyncProviderNS.csproj", "{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddVcsRootMappingsToIdeCli", "AddVcsRootMappingsToIdeAsyncProvider\AddVcsRootMappingsToIdeCli\AddVcsRootMappingsToIdeCli.csproj", "{9862BFEF-9778-4D81-9875-2FB882DC95BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -581,6 +587,14 @@ Global
 		{96D88C86-FCC0-4C08-B970-085FD0D2B2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D88C86-FCC0-4C08-B970-085FD0D2B2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D88C86-FCC0-4C08-B970-085FD0D2B2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9862BFEF-9778-4D81-9875-2FB882DC95BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9862BFEF-9778-4D81-9875-2FB882DC95BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9862BFEF-9778-4D81-9875-2FB882DC95BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9862BFEF-9778-4D81-9875-2FB882DC95BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -661,5 +675,7 @@ Global
 		{3D96716A-9129-431A-9325-BAD8726F6E14} = {9B4F0A42-1544-4620-9354-DF5F76570EBC}
 		{D68600FE-56E8-46D5-84A3-2EB72807531C} = {9B4F0A42-1544-4620-9354-DF5F76570EBC}
 		{96D88C86-FCC0-4C08-B970-085FD0D2B2CC} = {6148447A-A46C-47F4-AA52-DAD44764E529}
+		{8AAE1D4D-A42D-4530-ABDA-BB7A3A134B8F} = {C7FA9008-B492-48A3-AC54-228E68BDE7A6}
+		{9862BFEF-9778-4D81-9875-2FB882DC95BE} = {C7FA9008-B492-48A3-AC54-228E68BDE7A6}
 	EndGlobalSection
 EndGlobal
