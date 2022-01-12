@@ -166,3 +166,6 @@
 [submodule "AddVcsRootMappingsToIdeAsyncProvider"]
 	path = AddVcsRootMappingsToIdeAsyncProvider
 	url = ../UtilDotnet.AddVcsRootMappingsToIdeAsyncProvider.git
+[submodule "AddProjectsToSolutionAsyncProvider"]
+	path = AddProjectsToSolutionAsyncProvider
+	url = ../UtilDotnet.AddProjectsToSolutionAsyncProvider.git
