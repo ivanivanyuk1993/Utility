@@ -281,7 +281,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunAtomicallyAsyncProviderT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunAtomicallyForMultipleResourceIdsAsyncProviderNS", "RunAtomicallyProvider\RunAtomicallyForMultipleResourceIdsAsyncProviderNS\RunAtomicallyForMultipleResourceIdsAsyncProviderNS.csproj", "{08AB3544-1177-42B7-9E79-622DBF0F7AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunAtomicallyAsyncProviderWithFinalActionNS", "RunAtomicallyProvider\RunAtomicallyAsyncProviderWithFinalActionNS\RunAtomicallyAsyncProviderWithFinalActionNS.csproj", "{4635436B-BFB6-4EB5-824F-840BFB72CE7B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IsLockedAndQueue", "IsLockedAndQueue", "{7396D844-0DA7-4ADA-B893-3C95994579A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsLockedAndQueueNS", "IsLockedAndQueue\IsLockedAndQueueNS\IsLockedAndQueueNS.csproj", "{0125B5A0-080A-45CF-871B-04237D6EE9B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -629,10 +631,10 @@ Global
 		{08AB3544-1177-42B7-9E79-622DBF0F7AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08AB3544-1177-42B7-9E79-622DBF0F7AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08AB3544-1177-42B7-9E79-622DBF0F7AC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4635436B-BFB6-4EB5-824F-840BFB72CE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4635436B-BFB6-4EB5-824F-840BFB72CE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4635436B-BFB6-4EB5-824F-840BFB72CE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4635436B-BFB6-4EB5-824F-840BFB72CE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0125B5A0-080A-45CF-871B-04237D6EE9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0125B5A0-080A-45CF-871B-04237D6EE9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0125B5A0-080A-45CF-871B-04237D6EE9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0125B5A0-080A-45CF-871B-04237D6EE9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -720,6 +722,6 @@ Global
 		{C4DFCB89-89A9-4CBC-B95E-88387B98D08E} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
 		{304AAB29-C2B7-449C-A050-031FE1774830} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
 		{08AB3544-1177-42B7-9E79-622DBF0F7AC5} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
-		{4635436B-BFB6-4EB5-824F-840BFB72CE7B} = {296A0F01-3290-4A5B-8922-F195DDC8606C}
+		{0125B5A0-080A-45CF-871B-04237D6EE9B3} = {7396D844-0DA7-4ADA-B893-3C95994579A1}
 	EndGlobalSection
 EndGlobal

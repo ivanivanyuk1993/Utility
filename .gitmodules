@@ -169,3 +169,6 @@
 [submodule "AddProjectsToSolutionAsyncProvider"]
 	path = AddProjectsToSolutionAsyncProvider
 	url = ../UtilDotnet.AddProjectsToSolutionAsyncProvider.git
+[submodule "IsLockedAndQueue"]
+	path = IsLockedAndQueue
+	url = ../UtilDotnet.IsLockedAndQueue.git
