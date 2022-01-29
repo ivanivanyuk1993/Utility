@@ -1,17 +1,16 @@
 # UtilDotnet
 ## How to
 ### Git flow with submodules
-Use scripts
 - Initialize/checkout feature branch
 ```
 BRANCH_NAME=feature/some-feature-name
 bash git-checkout-with-submodules "${BRANCH_NAME}"
 ```
-- Do commits in your IDE(Rider from JetBrains)
+- Do commits in your IDE(like Rider from JetBrains or VisualStudio from Microsoft)
 - Push feature branch
 ```
 BRANCH_NAME=feature/some-feature-name
-bash git-push-with-submodules "${BRANCH_NAME}"
+bash git-push-with-submodules.sh
 ```
 - Create PR in your git provider(like github)
 - After PR is merged into main branch and feature branch is no longer needed, delete branch with
