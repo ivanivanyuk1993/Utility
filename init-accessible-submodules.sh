@@ -6,7 +6,7 @@ dotnet run \
     -- \
     --git-root-directory-path "." \
 && \
-bash git-checkout-submodules-to-main.sh \
+bash git-checkout-with-submodules.sh \
 && \
 dotnet run \
     --project RestrictedGitSubmoduleCliUtil/MakeSolutionWithAccessibleCsprojectsCli/MakeSolutionWithAccessibleCsprojectsCli.csproj \
