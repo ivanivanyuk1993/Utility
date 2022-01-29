@@ -1,1 +1,0 @@
-bash git-submodule-foreach-parallel.sh "git fetch && git push"
