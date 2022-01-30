@@ -12,7 +12,13 @@ bash git-checkout-with-submodules "${BRANCH_NAME}"
 BRANCH_NAME=feature/some-feature-name
 bash git-push-with-submodules.sh
 ```
-- Create PR in your git provider(like github)
+- Merge branch `main` into current branch
+```
+BRANCH_NAME=main
+bash git-merge-with-submodules "${BRANCH_NAME}"
+```
+- Create PR in your git provider(like github), code review will look like on screenshot
+  ![Code review with submodules](code-review-with-submodules.png?raw=true "Code review with submodules")
 - After PR is merged into main branch and feature branch is no longer needed, delete branch with
 ```
 BRANCH_NAME=feature/some-feature-name
