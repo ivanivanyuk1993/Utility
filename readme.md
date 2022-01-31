@@ -33,7 +33,7 @@ bash show-git-repository-list-to-work-with-csproject-list.sh \
 ### Make commits
 - Commit convention was not chosen, so you can follow any convention you like, but do not forget to add information on which changes were made, where and why, like
 ```
-Fixed bug in logic ... in file ... to prevent errors like ...
+Fixed bug in logic ... in method `{method_name}` in class `class_name` ... to prevent errors like ...
 ```
 ### Register submodules in VCS mappings of JetBrains IDE
 - Open solution in IDE at least once - to generate directory `.idea`
