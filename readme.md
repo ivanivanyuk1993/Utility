@@ -18,6 +18,7 @@ bash git-merge-with-submodules.sh "${BRANCH_NAME}"
 ```
 - Create PR in your git provider(like github), code review will look like on screenshot
   ![Code review with submodules](code-review-with-submodules.png?raw=true "Code review with submodules")
+  (Please upvote this discussion which proposes to support atomic merges in PR-s in github https://github.com/github/feedback/discussions/10968)
 - After PR is merged into main branch and feature branch is no longer needed, delete branch with
 ```
 BRANCH_NAME=feature/some-feature-name
