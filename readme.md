@@ -4,7 +4,7 @@
 - Initialize/checkout feature branch
 ```
 BRANCH_NAME=feature/some-feature-name
-bash git-checkout-with-submodules "${BRANCH_NAME}"
+bash git-checkout-with-submodules.sh "${BRANCH_NAME}"
 ```
 - Do commits in your IDE(like Rider from JetBrains or VisualStudio from Microsoft)
 - Push feature branch
@@ -14,14 +14,14 @@ bash git-push-with-submodules.sh
 - Merge branch `main` into current branch
 ```
 BRANCH_NAME=main
-bash git-merge-with-submodules "${BRANCH_NAME}"
+bash git-merge-with-submodules.sh "${BRANCH_NAME}"
 ```
 - Create PR in your git provider(like github), code review will look like on screenshot
   ![Code review with submodules](code-review-with-submodules.png?raw=true "Code review with submodules")
 - After PR is merged into main branch and feature branch is no longer needed, delete branch with
 ```
 BRANCH_NAME=feature/some-feature-name
-bash git-delete-branch-with-submodules "${BRANCH_NAME}"
+bash git-delete-branch-with-submodules.sh "${BRANCH_NAME}"
 ```
 ### Show list of git repositories, needed to work on `csproj` list
 Run command like
