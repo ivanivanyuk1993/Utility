@@ -7,6 +7,7 @@ BRANCH_NAME=feature/some-feature-name
 bash git-checkout-with-submodules.sh "${BRANCH_NAME}"
 ```
 - Do commits in your IDE(like Rider from JetBrains or VisualStudio from Microsoft)
+  - Notice that you may want to configure VCS root mappings in your IDE, similar to how it is done for JetBrains IDE-s in `add-vcs-root-mappings-to-ide.sh` of this repository to see changes in child repositories
 - Push feature branch
 ```
 bash git-push-with-submodules.sh
