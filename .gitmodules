@@ -169,3 +169,6 @@
 [submodule "AddProjectsToSolutionAsyncProvider"]
 	path = AddProjectsToSolutionAsyncProvider
 	url = ../UtilDotnet.AddProjectsToSolutionAsyncProvider.git
+[submodule "RunWithMaxConcurrencyProvider"]
+	path = RunWithMaxConcurrencyProvider
+	url = ../UtilDotnet.RunWithMaxConcurrencyProvider.git
