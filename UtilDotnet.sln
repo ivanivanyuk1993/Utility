@@ -307,6 +307,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineLocalFairAsyncReadWr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairAsyncReadWriteLockNS", "FairAsyncReadWriteLock\FairAsyncReadWriteLockNS\FairAsyncReadWriteLockNS.csproj", "{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS", "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList\FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS\FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS.csproj", "{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -689,6 +691,10 @@ Global
 		{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -785,5 +791,6 @@ Global
 		{EB52DC32-8EDE-4DDC-8D1F-1184AA06CD94} = {BE1AA7E6-859D-48DE-8805-E1DACEB29F16}
 		{37716C64-6347-469B-A0AF-121FBC7CB4E7} = {BE1AA7E6-859D-48DE-8805-E1DACEB29F16}
 		{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E} = {80DC69BA-AA9E-4807-A3FC-61B1313EAE88}
+		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A} = {B45809C8-A2BC-4F19-935E-F9D00D4F9FFC}
 	EndGlobalSection
 EndGlobal
