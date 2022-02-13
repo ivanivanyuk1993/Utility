@@ -172,3 +172,12 @@
 [submodule "RunWithMaxConcurrencyProvider"]
 	path = RunWithMaxConcurrencyProvider
 	url = ../UtilDotnet.RunWithMaxConcurrencyProvider.git
+[submodule "AsyncReadWriteLockForMultipleResourceIds"]
+	path = AsyncReadWriteLockForMultipleResourceIds
+	url = ../UtilDotnet.AsyncReadWriteLockForMultipleResourceIds.git
+[submodule "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList"]
+	path = FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList
+	url = ../UtilDotnet.FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList.git
+[submodule "MachineLocalFairAsyncReadWriteLock"]
+	path = MachineLocalFairAsyncReadWriteLock
+	url = ../UtilDotnet.MachineLocalFairAsyncReadWriteLock
