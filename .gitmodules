@@ -181,9 +181,9 @@
 [submodule "MachineLocalFairAsyncReadWriteLock"]
 	path = MachineLocalFairAsyncReadWriteLock
 	url = ../UtilDotnet.MachineLocalFairAsyncReadWriteLock.git
-[submodule "TemporaryCockroachDbEmulatingPostgreSqlInDocker"]
-	path = TemporaryCockroachDbEmulatingPostgreSqlInDocker
-	url = ../UtilDotnet.TemporaryCockroachDbEmulatingPostgreSqlInDocker.git
 [submodule "DockerContainerInfo"]
 	path = DockerContainerInfo
 	url = ../UtilDotnet.DockerContainerInfo.git
+[submodule "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext"]
+	path = TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext
+	url = ../UtilDotnet.TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext.git
