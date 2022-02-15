@@ -309,6 +309,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairAsyncReadWriteLockNS", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS", "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList\FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS\FairAsyncReadWriteLockForMultipleResourceIdsFromStaticListBenchmarkNS.csproj", "{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemporaryCockroachDbEmulatingPostgreSqlInDocker", "TemporaryCockroachDbEmulatingPostgreSqlInDocker", "{9F5FA022-F900-45C7-84A7-5F5A7149EE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextNS", "TemporaryCockroachDbEmulatingPostgreSqlInDocker\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextNS\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextNS.csproj", "{49F3F746-4CBE-471F-B871-E81B7A86321D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerContainerInfo", "DockerContainerInfo", "{CF170E2D-9CCD-43D9-B1A7-1A8377B0BF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerContainerInfoNS", "DockerContainerInfo\DockerContainerInfoNS\DockerContainerInfoNS.csproj", "{F93672EE-483E-4078-A513-AC5361EE700D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS", "TemporaryCockroachDbEmulatingPostgreSqlInDocker\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS.csproj", "{A69630FA-82C9-48E7-A86C-7BDCF4A11259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -695,6 +705,18 @@ Global
 		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F3F746-4CBE-471F-B871-E81B7A86321D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F3F746-4CBE-471F-B871-E81B7A86321D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F3F746-4CBE-471F-B871-E81B7A86321D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F3F746-4CBE-471F-B871-E81B7A86321D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93672EE-483E-4078-A513-AC5361EE700D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93672EE-483E-4078-A513-AC5361EE700D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93672EE-483E-4078-A513-AC5361EE700D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93672EE-483E-4078-A513-AC5361EE700D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -792,5 +814,8 @@ Global
 		{37716C64-6347-469B-A0AF-121FBC7CB4E7} = {BE1AA7E6-859D-48DE-8805-E1DACEB29F16}
 		{821C7B7C-2656-4240-9A9D-A0A8ABB14E8E} = {80DC69BA-AA9E-4807-A3FC-61B1313EAE88}
 		{464FB1B9-01BA-4F21-AB7F-E02F8CD4464A} = {B45809C8-A2BC-4F19-935E-F9D00D4F9FFC}
+		{49F3F746-4CBE-471F-B871-E81B7A86321D} = {9F5FA022-F900-45C7-84A7-5F5A7149EE60}
+		{F93672EE-483E-4078-A513-AC5361EE700D} = {CF170E2D-9CCD-43D9-B1A7-1A8377B0BF78}
+		{A69630FA-82C9-48E7-A86C-7BDCF4A11259} = {9F5FA022-F900-45C7-84A7-5F5A7149EE60}
 	EndGlobalSection
 EndGlobal
