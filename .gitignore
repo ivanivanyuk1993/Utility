@@ -8,8 +8,8 @@ riderModule.iml
 /.idea/
 
 # It should be gitignored, according to https://stackoverflow.com/a/22235763/9566462
-/UtilDotnet.sln.DotSettings.user
+/Utility.sln.DotSettings.user
 
 # Generated sln and `.idea` files, because only original files should be commited
-/UtilDotnet.only-accessible.generated.sln
-/UtilDotnet.only-accessible.generated.sln.DotSettings.user
+/Utility.only-accessible.generated.sln
+/Utility.only-accessible.generated.sln.DotSettings.user

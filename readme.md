@@ -1,4 +1,4 @@
-# UtilDotnet
+# Utility
 ## How to
 ### Git flow with submodules
 - Initialize/checkout feature branch
@@ -47,11 +47,11 @@ Fixed bug in logic ... in method `{method_name}` in class `class_name` ... to pr
 ```
 bash init-accessible-submodules.sh
 ```
-- Open generated `UtilDotnet.only-accessible.generated.sln` in IDE
+- Open generated `Utility.only-accessible.generated.sln` in IDE
 
 ## Architecture decision explanations
 ### Why heavy use of submodules
-Project uses submodules to atomically control access to parts of library `UtilDotnet`, like giving public access to projects we can benefit from sharing(like API interfaces(to talk in same language), or code which won't give too much competitive advantage when hidden, but can give benefit if community finds bugs in it, etc.), and giving access to developers on need to know basis(to not have situation when all developers have access to everything and we can not hire juniors(from any country, even with cheapest salaries and worst reputation) or new developers without fear)
+Project uses submodules to atomically control access to parts of library `Utility`, like giving public access to projects we can benefit from sharing(like API interfaces(to talk in same language), or code which won't give too much competitive advantage when hidden, but can give benefit if community finds bugs in it, etc.), and giving access to developers on need to know basis(to not have situation when all developers have access to everything and we can not hire juniors(from any country, even with cheapest salaries and worst reputation) or new developers without fear)
 
 Ideally, we want to give developers access only to those modules, which they need for current task(or code review), and revoke access as soon as task is completed(notice that it works also in favor of honest developers, because they won't need to think about security too much, and we may have not hired them at all if we didn't have increased security, especially if they are from countries with bad reputation)
 
@@ -62,25 +62,25 @@ Notice that project assumes flat structure and expects that all projects are mod
     <KubernetesConfigurationInstanceProviderRootPath Condition="'$(KubernetesConfigurationInstanceProviderRootPath)' == ''">../KubernetesConfigurationInstanceProvider.local</KubernetesConfigurationInstanceProviderRootPath>
     <KubernetesConfigurationInstanceProviderSlnPath>$(KubernetesConfigurationInstanceProviderRootPath)/KubernetesConfigurationInstanceProvider.sln</KubernetesConfigurationInstanceProviderSlnPath>
 
-    <UtilDotnetRootPath Condition="'$(UtilDotnetRootPath)' == ''">../UtilDotnet</UtilDotnetRootPath>
-    <UtilDotnetSlnPath>$(UtilDotnetRootPath)/UtilDotnet.sln</UtilDotnetSlnPath>
+    <UtilityRootPath Condition="'$(UtilityRootPath)' == ''">../Utility</UtilityRootPath>
+    <UtilitySlnPath>$(UtilityRootPath)/Utility.sln</UtilitySlnPath>
 </PropertyGroup>
 ```
 - Add build of dynamically included solutions to your csproj
 ```
 <Target Name="BuildExternalDependencies" BeforeTargets="PreBuildEvent">
     <MSBuild Projects="$(KubernetesConfigurationInstanceProviderSlnPath)" Targets="Restore;Build"/>
-    <MSBuild Projects="$(UtilDotnetSlnPath)" Targets="Restore;Build"/>
+    <MSBuild Projects="$(UtilitySlnPath)" Targets="Restore;Build"/>
 </Target>
 ```
 - Add project references to your csproj like
 ```
 <ItemGroup>
     <ProjectReference Include="$(KubernetesConfigurationInstanceProviderRootPath)/KubernetesConfigurationInstanceProviderNS/KubernetesConfigurationInstanceProviderNS.csproj"/>
-    <ProjectReference Include="$(UtilDotnetRootPath)/ConvertObjectToFlatDictionaryProvider/ConvertObjectToFlatDictionaryProviderNS/ConvertObjectToFlatDictionaryProviderNS.csproj"/>
-    <ProjectReference Include="$(UtilDotnetRootPath)/GetCallerFilePathProvider/GetCallerFilePathProviderNS/GetCallerFilePathProviderNS.csproj"/>
-    <ProjectReference Include="$(UtilDotnetRootPath)/MakeConfigurationFilesFromTemplatesProvider/MakeConfigurationFilesFromTemplatesProviderNS/MakeConfigurationFilesFromTemplatesProviderNS.csproj"/>
-    <ProjectReference Include="$(UtilDotnetRootPath)/RunCLITaskProvider/RunCLITaskProviderNS/RunCLITaskProviderNS.csproj"/>
+    <ProjectReference Include="$(UtilityRootPath)/ConvertObjectToFlatDictionaryProvider/ConvertObjectToFlatDictionaryProviderNS/ConvertObjectToFlatDictionaryProviderNS.csproj"/>
+    <ProjectReference Include="$(UtilityRootPath)/GetCallerFilePathProvider/GetCallerFilePathProviderNS/GetCallerFilePathProviderNS.csproj"/>
+    <ProjectReference Include="$(UtilityRootPath)/MakeConfigurationFilesFromTemplatesProvider/MakeConfigurationFilesFromTemplatesProviderNS/MakeConfigurationFilesFromTemplatesProviderNS.csproj"/>
+    <ProjectReference Include="$(UtilityRootPath)/RunCLITaskProvider/RunCLITaskProviderNS/RunCLITaskProviderNS.csproj"/>
 </ItemGroup>
 ```
 - Build like
