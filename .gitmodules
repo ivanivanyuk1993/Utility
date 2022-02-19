@@ -187,3 +187,6 @@
 [submodule "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext"]
 	path = TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext
 	url = ../UtilDotnet.TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext.git
+[submodule "RenameRepositoryListInGithubProvider"]
+	path = RenameRepositoryListInGithubProvider
+	url = ../UtilDotnet.RenameRepositoryListInGithubProvider.git

@@ -319,6 +319,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerContainerInfoNS", "Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS", "TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContext\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS\TemporaryPostgreSqlEmulatingCockroachDbInDockerDbContextTestNS.csproj", "{A69630FA-82C9-48E7-A86C-7BDCF4A11259}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenameRepositoryListInGithubProvider", "RenameRepositoryListInGithubProvider", "{17C440F9-0200-4917-86CE-64D53629104A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameRepositoryListInGithubProviderNS", "RenameRepositoryListInGithubProvider\RenameRepositoryListInGithubProviderNS\RenameRepositoryListInGithubProviderNS.csproj", "{E3629F6A-D8D7-428B-B53D-0B147EC9B685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameRepositoryListInGithubCli", "RenameRepositoryListInGithubProvider\RenameRepositoryListInGithubCli\RenameRepositoryListInGithubCli.csproj", "{15A3E4FF-5825-47A2-85AA-3AB9D3A47120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIfNotSuccessProviderNS", "ExecuteCliCommandAsyncProvider\ThrowIfNotSuccessProviderNS\ThrowIfNotSuccessProviderNS.csproj", "{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +725,18 @@ Global
 		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A69630FA-82C9-48E7-A86C-7BDCF4A11259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3629F6A-D8D7-428B-B53D-0B147EC9B685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3629F6A-D8D7-428B-B53D-0B147EC9B685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3629F6A-D8D7-428B-B53D-0B147EC9B685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3629F6A-D8D7-428B-B53D-0B147EC9B685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -817,5 +837,8 @@ Global
 		{49F3F746-4CBE-471F-B871-E81B7A86321D} = {9F5FA022-F900-45C7-84A7-5F5A7149EE60}
 		{F93672EE-483E-4078-A513-AC5361EE700D} = {CF170E2D-9CCD-43D9-B1A7-1A8377B0BF78}
 		{A69630FA-82C9-48E7-A86C-7BDCF4A11259} = {9F5FA022-F900-45C7-84A7-5F5A7149EE60}
+		{E3629F6A-D8D7-428B-B53D-0B147EC9B685} = {17C440F9-0200-4917-86CE-64D53629104A}
+		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120} = {17C440F9-0200-4917-86CE-64D53629104A}
+		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63} = {1578F5AF-82D7-4192-B1EE-B18171810BB0}
 	EndGlobalSection
 EndGlobal
