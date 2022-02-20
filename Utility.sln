@@ -327,6 +327,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameRepositoryListInGithu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrowIfNotSuccessProviderNS", "ExecuteCliCommandAsyncProvider\ThrowIfNotSuccessProviderNS\ThrowIfNotSuccessProviderNS.csproj", "{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestLockWithCancellationTokenProviderNS", "AsyncReadWriteLock\RequestLockWithCancellationTokenProviderNS\RequestLockWithCancellationTokenProviderNS.csproj", "{5E12642E-DDDE-4F8C-9E34-904B91D35ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -737,6 +739,10 @@ Global
 		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E12642E-DDDE-4F8C-9E34-904B91D35ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E12642E-DDDE-4F8C-9E34-904B91D35ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E12642E-DDDE-4F8C-9E34-904B91D35ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E12642E-DDDE-4F8C-9E34-904B91D35ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B487E407-0A41-46B9-8515-82472631E6AA} = {57B7C07C-654E-41D3-8E85-34FB40B790F6}
@@ -840,5 +846,6 @@ Global
 		{E3629F6A-D8D7-428B-B53D-0B147EC9B685} = {17C440F9-0200-4917-86CE-64D53629104A}
 		{15A3E4FF-5825-47A2-85AA-3AB9D3A47120} = {17C440F9-0200-4917-86CE-64D53629104A}
 		{488BCADF-CD6F-48B0-9D19-7AEDBD118B63} = {1578F5AF-82D7-4192-B1EE-B18171810BB0}
+		{5E12642E-DDDE-4F8C-9E34-904B91D35ADC} = {15EF6437-3E96-4AFE-8670-56FA0D7A8860}
 	EndGlobalSection
 EndGlobal
