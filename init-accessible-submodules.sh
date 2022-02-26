@@ -1,4 +1,13 @@
-git submodule update --init --jobs "$(grep -c ^processor /proc/cpuinfo)" --recursive --remote -- "RestrictedGitSubmoduleCliUtil" \
+git submodule update --init --jobs "$(grep -c ^processor /proc/cpuinfo)" --recursive --remote -- \
+  "CliExitCodeProvider" \
+  "CopyDirectoryAsyncProvider" \
+  "ExecuteCliCommandAsyncProvider" \
+  "GetGitRepositoryUrlAsyncProvider" \
+  "GetJsonDateProvider" \
+  "NormalizeLineBreaksProvider" \
+  "RestrictedGitSubmoduleCliUtil" \
+  "RunCliTaskProvider" \
+  "ValueOrError" \
 && \
 dotnet run \
     --configuration Release \
