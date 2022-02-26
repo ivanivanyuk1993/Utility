@@ -127,12 +127,6 @@
 [submodule "PerfectlyBalancedTree"]
 	path = PerfectlyBalancedTree
 	url = ../Utility.PerfectlyBalancedTree.git
-[submodule "GetValueObservableProvider"]
-	path = GetValueObservableProvider
-	url = ../Utility.GetValueObservableProvider.git
-[submodule "ReactiveValueProvider"]
-	path = ReactiveValueProvider
-	url = ../Utility.ReactiveValueProvider.git
 [submodule "TakeUntilNotifier"]
 	path = TakeUntilNotifier
 	url = ../Utility.TakeUntilNotifier.git
@@ -190,3 +184,6 @@
 [submodule "RenameRepositoryListInGithubProvider"]
 	path = RenameRepositoryListInGithubProvider
 	url = ../Utility.RenameRepositoryListInGithubProvider.git
+[submodule "ValueWithLock"]
+	path = ValueWithLock
+	url = ../Utility.ValueWithLock.git
