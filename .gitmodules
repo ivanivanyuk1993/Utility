@@ -187,3 +187,6 @@
 [submodule "ValueWithLock"]
 	path = ValueWithLock
 	url = ../Utility.ValueWithLock.git
+[submodule "CreateTypeScriptProjectProvider"]
+	path = CreateTypeScriptProjectProvider
+	url = ../Utility.CreateTypeScriptProjectProvider.git

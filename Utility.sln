@@ -351,6 +351,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValueWithTimestamp", "Value
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueWithTimestampNS", "ValueWithTimestamp\ValueWithTimestampNS\ValueWithTimestampNS.csproj", "{3F189F7E-D226-4065-875B-9F1FCA8972F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateTypeScriptProjectProvider", "CreateTypeScriptProjectProvider", "{FC8581D7-0113-466F-A650-F2D957EC23B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateTypeScriptProjectProviderNS", "CreateTypeScriptProjectProvider\CreateTypeScriptProjectProviderNS\CreateTypeScriptProjectProviderNS.csproj", "{1CAEE2B2-7594-481F-ACE2-1127D49A07BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -809,6 +813,10 @@ Global
 		{3F189F7E-D226-4065-875B-9F1FCA8972F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F189F7E-D226-4065-875B-9F1FCA8972F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F189F7E-D226-4065-875B-9F1FCA8972F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAEE2B2-7594-481F-ACE2-1127D49A07BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAEE2B2-7594-481F-ACE2-1127D49A07BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAEE2B2-7594-481F-ACE2-1127D49A07BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAEE2B2-7594-481F-ACE2-1127D49A07BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{739428A7-29D1-47C3-95A0-99D8EAC3F08E} = {A269653A-547D-437B-905A-64E034C66965}
@@ -924,5 +932,6 @@ Global
 		{35EA9394-6512-4714-93D3-E48239C04B61} = {7BA60524-6116-4FA9-B10A-E6D07F3DEF2E}
 		{64776CE6-8695-442F-9FD5-994655BF7FA5} = {6C42D4C3-7D5C-4AE4-AF54-07949C792351}
 		{3F189F7E-D226-4065-875B-9F1FCA8972F4} = {9FA8BDAE-EA12-4F93-A047-AFB45DCFF29A}
+		{1CAEE2B2-7594-481F-ACE2-1127D49A07BB} = {FC8581D7-0113-466F-A650-F2D957EC23B0}
 	EndGlobalSection
 EndGlobal
