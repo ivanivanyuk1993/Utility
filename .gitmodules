@@ -190,3 +190,6 @@
 [submodule "CreateTypeScriptProjectProvider"]
 	path = CreateTypeScriptProjectProvider
 	url = ../Utility.CreateTypeScriptProjectProvider.git
+[submodule "SplitCamelCaseProvider"]
+	path = SplitCamelCaseProvider
+	url = ../Utility.SplitCamelCaseProvider.git
