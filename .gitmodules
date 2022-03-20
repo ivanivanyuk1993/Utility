@@ -193,3 +193,6 @@
 [submodule "SplitCamelCaseProvider"]
 	path = SplitCamelCaseProvider
 	url = ../Utility.SplitCamelCaseProvider.git
+[submodule "CommonRxShareReplayConfigProvider"]
+	path = CommonRxShareReplayConfigProvider
+	url = ../Utility.CommonRxShareReplayConfigProvider.git
