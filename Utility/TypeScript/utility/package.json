@@ -1,0 +1,62 @@
+{
+  "name": "utility",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:all": "npm-run-all build:clean build:external build:compile",
+    "build:clean": "shx rm -rf ./dist",
+    "build:external": "npm-run-all build:external:common-rx-share-replay-config-provider build:external:get-debounced-buffer-provider",
+    "build:external:common-rx-share-replay-config-provider": "(cd ../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider && npm install && npm run build:all)",
+    "build:external:get-debounced-buffer-provider": "(cd ../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider && npm install && npm run build:all)",
+    "build:compile": "tsc --build ./src/tsconfig.cjs.json ./src/tsconfig.cjs.spec.json ./src/tsconfig.esm.json ./src/tsconfig.esm5.json ./src/tsconfig.esm5.rollup.json ./src/tsconfig.types.json ./src/tsconfig.types.spec.json ./spec/tsconfig.json",
+    "lint": "eslint --fix src/** && prettier --write src",
+    "test": "jest"
+  },
+  "author": "Ivan Ivanyuk",
+  "license": "UNLICENSED",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm5/index.js",
+  "es2015": "./dist/esm/index.js",
+  "sideEffects": false,
+  "types": "index.d.ts",
+  "typesVersions": {
+    ">=1.0": {
+      "*": [
+        "dist/types/*"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/esm5/index.js",
+      "es2015": "./dist/esm/index.js",
+      "node": "./dist/cjs/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/cjs/**/!(*.tsbuildinfo)",
+    "dist/esm/**/!(*.tsbuildinfo)",
+    "dist/esm5/**/!(*.tsbuildinfo)",
+    "dist/types/**/!(*.tsbuildinfo)",
+    "package.json",
+    "src",
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "jest": "^27.0.1",
+    "npm-run-all": "4.1.2",
+    "prettier": "2.3.1",
+    "shx": "^0.3.2",
+    "typescript": "^4.3.2"
+  },
+  "peerDependencies": {
+    "common-rx-share-replay-config-provider": "file:../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider",
+    "get-debounced-buffer-provider": "file:../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider"
+  }
+}
