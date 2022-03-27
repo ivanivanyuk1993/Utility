@@ -45,9 +45,9 @@ Fixed bug in logic ... in method `{method_name}` in class `class_name` ... to pr
 - Open console(which supports bash) in repository root
 - Run command
 ```
-bash init-accessible-submodules.sh
+(cd Utility/dotnet && bash init-accessible-submodules.sh)
 ```
-- Open generated `Utility.only-accessible.generated.sln` in IDE
+- Open generated `Utility/dotnet/Utility.only-accessible.generated.sln` in IDE
 
 ## Architecture decision explanations
 ### Why heavy use of submodules
@@ -55,7 +55,7 @@ Project uses submodules to atomically control access to parts of library `Utilit
 
 Ideally, we want to give developers access only to those modules, which they need for current task(or code review), and revoke access as soon as task is completed(notice that it works also in favor of honest developers, because they won't need to think about security too much, and we may have not hired them at all if we didn't have increased security, especially if they are from countries with bad reputation)
 
-Notice that project assumes flat structure and expects that all projects are modified as part of solution `UtilNet.sln`, but if you need more complex structure, you can start using(on first need) following approach
+Notice that project assumes flat structure and expects that all projects are modified as part of solution `Utility.sln`, but if you need more complex structure, you can start using(on first need) following approach
 - Add properties with path to correct solution to your csproj(and optionally, default value, which points to locally included submodule)
 ```
 <PropertyGroup>

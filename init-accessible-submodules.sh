@@ -21,4 +21,4 @@ dotnet run \
     --configuration Release \
     --project RestrictedGitSubmoduleCliUtil/MakeSolutionWithAccessibleCsprojectsCli/MakeSolutionWithAccessibleCsprojectsCli.csproj \
     -- \
-    --solution-file-path "./Utility.sln"
+    --solution-file-path "./Utility/dotnet/Utility.sln"

@@ -1,0 +1,9 @@
+# IDE-s
+/.idea/
+
+# It should be gitignored, according to https://stackoverflow.com/a/22235763/9566462
+/Utility.sln.DotSettings.user
+
+# Generated sln and `.idea` files, because only original files should be commited
+/Utility.only-accessible.generated.sln
+/Utility.only-accessible.generated.sln.DotSettings.user
