@@ -196,3 +196,6 @@
 [submodule "CommonRxShareReplayConfigProvider"]
 	path = CommonRxShareReplayConfigProvider
 	url = ../Utility.CommonRxShareReplayConfigProvider.git
+[submodule "OverflowingTableResizer"]
+	path = OverflowingTableResizer
+	url = ../Utility.OverflowingTableResizer.git

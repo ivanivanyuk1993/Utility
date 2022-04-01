@@ -9,7 +9,7 @@
     "build:external:common-rx-share-replay-config-provider": "(cd ../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider && npm install && npm run build:all)",
     "build:external:get-debounced-buffer-provider": "(cd ../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider && npm install && npm run build:all)",
     "build:compile": "tsc --build ./src/tsconfig.cjs.json ./src/tsconfig.cjs.spec.json ./src/tsconfig.esm.json ./src/tsconfig.esm5.json ./src/tsconfig.esm5.rollup.json ./src/tsconfig.types.json ./src/tsconfig.types.spec.json ./spec/tsconfig.json",
-    "lint": "eslint --fix src/** && prettier --write src",
+    "lint": "eslint --fix src/**/* && prettier --write src",
     "test": "jest"
   },
   "author": "Ivan Ivanyuk",
