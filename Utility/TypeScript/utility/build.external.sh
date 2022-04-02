@@ -1,7 +1,7 @@
 while read -r LOCAL_DEPENDENCY;
 do
   (
-    npm install "${LOCAL_DEPENDENCY}" \
+    npm install --save-peer "${LOCAL_DEPENDENCY}" \
     && \
     cd "${LOCAL_DEPENDENCY}" \
     && \

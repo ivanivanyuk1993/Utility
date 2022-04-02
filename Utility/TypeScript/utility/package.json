@@ -48,7 +48,8 @@
   },
   "peerDependencies": {
     "common-rx-share-replay-config-provider": "file:../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider",
-    "get-debounced-buffer-provider": "file:../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider"
+    "get-debounced-buffer-provider": "file:../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider",
+    "overflowing-table-resizer": "file:../../../OverflowingTableResizer/TypeScript/overflowing-table-resizer"
   },
   "private": true
 }
