@@ -1,0 +1,2 @@
+../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider
+../../../SomePackageName/TypeScript/some-package-name

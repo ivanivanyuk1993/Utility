@@ -3,14 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build:all": "npm-run-all build:clean build:external build:compile",
-    "build:clean": "shx rm -rf ./dist",
-    "build:external": "npm-run-all build:external:common-rx-share-replay-config-provider build:external:get-debounced-buffer-provider",
-    "build:external:common-rx-share-replay-config-provider": "(cd ../../../CommonRxShareReplayConfigProvider/TypeScript/common-rx-share-replay-config-provider && npm install && npm run build:all)",
-    "build:external:get-debounced-buffer-provider": "(cd ../../../GetDebouncedBufferProvider/TypeScript/get-debounced-buffer-provider && npm install && npm run build:all)",
-    "build:compile": "tsc --build ./src/tsconfig.cjs.json ./src/tsconfig.cjs.spec.json ./src/tsconfig.esm.json ./src/tsconfig.esm5.json ./src/tsconfig.esm5.rollup.json ./src/tsconfig.types.json ./src/tsconfig.types.spec.json ./spec/tsconfig.json",
-    "lint": "eslint --fix src/**/* && prettier --write src",
-    "test": "jest"
+    "test": "echo 'package `utility` is supposed to be tested with other means, by calling `bash test.sh` or by running test server which exposes tested methods and calling them from other code(to DRY testing of implementations in different languages)' && exit 1"
   },
   "author": "Ivan Ivanyuk",
   "license": "UNLICENSED",
@@ -50,9 +43,7 @@
     "@typescript-eslint/parser": "^4.25.0",
     "eslint": "^7.27.0",
     "jest": "^27.0.1",
-    "npm-run-all": "4.1.2",
     "prettier": "2.3.1",
-    "shx": "^0.3.2",
     "typescript": "^4.3.2"
   },
   "peerDependencies": {
