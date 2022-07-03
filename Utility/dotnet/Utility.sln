@@ -155,9 +155,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCallerFilePathProviderNS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetDebouncedBufferProvider", "GetDebouncedBufferProvider", "{0A3DEBF2-1516-4A86-9736-6FD7AB57916C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderNS", "..\..\GetDebouncedBufferProvider\GetDebouncedBufferProviderNS\GetDebouncedBufferProviderNS.csproj", "{43899AEC-3102-433B-8FCA-5920D3E6CB3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderNS", "..\..\GetDebouncedBufferProvider\dotnet\\GetDebouncedBufferProviderNS\GetDebouncedBufferProviderNS.csproj", "{43899AEC-3102-433B-8FCA-5920D3E6CB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderTestNS", "..\..\GetDebouncedBufferProvider\GetDebouncedBufferProviderTestNS\GetDebouncedBufferProviderTestNS.csproj", "{59630A40-3436-43B0-8141-9D938DBFF98B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderTestNS", "..\..\GetDebouncedBufferProvider\dotnet\GetDebouncedBufferProviderTestNS\GetDebouncedBufferProviderTestNS.csproj", "{59630A40-3436-43B0-8141-9D938DBFF98B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetGitRepositoryUrlAsyncProvider", "GetGitRepositoryUrlAsyncProvider", "{0BAD383E-DCC5-404D-BE5C-086E4ABD896D}"
 EndProject
@@ -362,6 +362,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValueWithTimestamp", "ValueWithTimestamp", "{0FBECFC0-54FA-441E-BE0B-6962FB031DEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueWithTimestampNS", "..\..\ValueWithTimestamp\ValueWithTimestampNS\ValueWithTimestampNS.csproj", "{F03B2BFA-7BDB-49DA-A3BE-4C0DF794F055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderTestServiceNS", "..\..\GetDebouncedBufferProvider\dotnet\GetDebouncedBufferProviderTestServiceNS\GetDebouncedBufferProviderTestServiceNS.csproj", "{D3A07C41-9567-4F4B-B19C-F80976228813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -837,6 +839,10 @@ Global
 		{F03B2BFA-7BDB-49DA-A3BE-4C0DF794F055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F03B2BFA-7BDB-49DA-A3BE-4C0DF794F055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F03B2BFA-7BDB-49DA-A3BE-4C0DF794F055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A07C41-9567-4F4B-B19C-F80976228813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A07C41-9567-4F4B-B19C-F80976228813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A07C41-9567-4F4B-B19C-F80976228813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A07C41-9567-4F4B-B19C-F80976228813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2C0EC768-86E7-47ED-9792-30C63C7EB73D} = {A548B42B-8AFB-4D87-BFA7-2C97F65B74AF}
@@ -956,5 +962,6 @@ Global
 		{45F72412-A4DD-43D2-B810-7E327B16CDBF} = {484D7CF4-0843-4CD0-B7EE-BFD6BB23FD88}
 		{BCCF86D2-CD6B-4691-A795-AFCA05C18301} = {7D90CD9B-345D-47B4-8547-0B732600F23D}
 		{F03B2BFA-7BDB-49DA-A3BE-4C0DF794F055} = {0FBECFC0-54FA-441E-BE0B-6962FB031DEB}
+		{D3A07C41-9567-4F4B-B19C-F80976228813} = {0A3DEBF2-1516-4A86-9736-6FD7AB57916C}
 	EndGlobalSection
 EndGlobal
