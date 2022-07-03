@@ -199,3 +199,6 @@
 [submodule "OverflowingTableResizer"]
 	path = OverflowingTableResizer
 	url = ../Utility.OverflowingTableResizer.git
+[submodule "angular-components-workspace"]
+	path = angular-components-workspace
+	url = ../Utility.angular-components-workspace.git
