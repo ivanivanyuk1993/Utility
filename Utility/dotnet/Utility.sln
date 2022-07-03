@@ -155,7 +155,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCallerFilePathProviderNS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GetDebouncedBufferProvider", "GetDebouncedBufferProvider", "{0A3DEBF2-1516-4A86-9736-6FD7AB57916C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderNS", "..\..\GetDebouncedBufferProvider\dotnet\\GetDebouncedBufferProviderNS\GetDebouncedBufferProviderNS.csproj", "{43899AEC-3102-433B-8FCA-5920D3E6CB3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderNS", "..\..\GetDebouncedBufferProvider\dotnet\GetDebouncedBufferProviderNS\GetDebouncedBufferProviderNS.csproj", "{43899AEC-3102-433B-8FCA-5920D3E6CB3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDebouncedBufferProviderTestNS", "..\..\GetDebouncedBufferProvider\dotnet\GetDebouncedBufferProviderTestNS\GetDebouncedBufferProviderTestNS.csproj", "{59630A40-3436-43B0-8141-9D938DBFF98B}"
 EndProject
