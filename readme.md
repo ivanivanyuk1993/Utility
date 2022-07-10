@@ -94,7 +94,12 @@ dotnet build \
     --configuration Release \
     /p:KubernetesConfigurationInstanceProviderRootPath="${KubernetesConfigurationInstanceProviderRootPath}"
 ```
-### Why security is needed for employer
+#### Why security is needed for employer
 Because you want to hire developers from least expensive to live areas. You usually can't do it, because it usually means you usually give new developers too much access to your system, and you don't trust new developers(because it is correct and logical not to trust new developers or people). With atomic access(like with using submodules) you can hire developers from cheapest areas to live(such areas usually have worst reputation, but it is not a problem anymore)
-### Why security is needed for developer
+#### Why security is needed for developer
 For me it is needed, because I live not in most expensive area to live and will benefit from being hire-able by employers from such areas
+### Why we don't use `Task`/`Promise`/`Future`-s and use Rx everywhere instead
+We always use Rx `IObservable`-s instead of `Task`-s, because library provides implementations in multiple languages, and `Task`/`Promise`/`Future` differ too much, and have problems, which `IObservable`-s don't have, like
+- C# `Task` is difficult to use with something like Rx `IScheduler`-s
+- JavaScript `Promise` doesn't support cancellation or something like Rx `IScheduler`-s
+- Java `Future` supports cancellation not through `CancellationToken`-s, and it looks like it doesn't provide a way to cancel already running logic

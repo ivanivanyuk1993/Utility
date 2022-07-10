@@ -4,9 +4,6 @@
 [submodule "ShardedQueue"]
 	path = ShardedQueue
 	url = ../Utility.ShardedQueue.git
-[submodule "AsyncReadWriteLock"]
-	path = AsyncReadWriteLock
-	url = ../Utility.AsyncReadWriteLock.git
 [submodule "RunAtomicallyProvider"]
 	path = RunAtomicallyProvider
 	url = ../Utility.RunAtomicallyProvider.git
@@ -22,9 +19,6 @@
 [submodule "RunWithoutGCProvider"]
 	path = RunWithoutGCProvider
 	url = ../Utility.RunWithoutGCProvider.git
-[submodule "FairAsyncReadWriteLock"]
-	path = FairAsyncReadWriteLock
-	url = ../Utility.FairAsyncReadWriteLock.git
 [submodule "AssertTimeUtil"]
 	path = AssertTimeUtil
 	url = ../Utility.AssertTimeUtil.git
@@ -166,15 +160,6 @@
 [submodule "RunWithMaxConcurrencyProvider"]
 	path = RunWithMaxConcurrencyProvider
 	url = ../Utility.RunWithMaxConcurrencyProvider.git
-[submodule "AsyncReadWriteLockForMultipleResourceIds"]
-	path = AsyncReadWriteLockForMultipleResourceIds
-	url = ../Utility.AsyncReadWriteLockForMultipleResourceIds.git
-[submodule "FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList"]
-	path = FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList
-	url = ../Utility.FairAsyncReadWriteLockForMultipleResourceIdsFromStaticList.git
-[submodule "MachineLocalFairAsyncReadWriteLock"]
-	path = MachineLocalFairAsyncReadWriteLock
-	url = ../Utility.MachineLocalFairAsyncReadWriteLock.git
 [submodule "DockerContainerInfo"]
 	path = DockerContainerInfo
 	url = ../Utility.DockerContainerInfo.git
@@ -184,9 +169,6 @@
 [submodule "RenameRepositoryListInGithubProvider"]
 	path = RenameRepositoryListInGithubProvider
 	url = ../Utility.RenameRepositoryListInGithubProvider.git
-[submodule "ValueWithLock"]
-	path = ValueWithLock
-	url = ../Utility.ValueWithLock.git
 [submodule "CreateTypeScriptProjectProvider"]
 	path = CreateTypeScriptProjectProvider
 	url = ../Utility.CreateTypeScriptProjectProvider.git
